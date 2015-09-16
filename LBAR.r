@@ -1,22 +1,36 @@
 #### LBAR ####
 
+library(dplyr)
+
 ### Read in life history parameter data and length frequency data######
 
-lifehistory<-read.csv("Montserrat Life History Parms.csv")
-length_data<-read.csv("Montserrat Species Length Composition Data_July.csv")
-allspecies<-unique(lifehistory$Species)
-allspecies2<-unique(length_data$Species.ID)
-lifehistory[is.na(lifehistory)] <- 0
 
-for i in 1:length(allspecies)
+lifehistory<-read.csv("Montserrat Life History Parms2.csv")
+length_data<-read.csv("Montserrat Species Length Composition Data_July2.csv")
+allspecies<-unique(lifehistory$Species)
+allspecies<-sort(allspecies)
+
+allspecies2<-unique(length_data$Species.ID)
+commonname<-unique(length_data$Species.common.name)
+commonname<-sort(commonname)
+
+allspecies2<-sort(allspecies2)
+lifehistory[is.na(lifehistory)] <- 0
+results <- data.frame(matrix(0, nrow=length(allspecies)),Species=NA, Linf=NA, k=NA, M=NA,LBAR=NA, Z=NA, F=NA, n=NA, Fcurr=NA)
+i=1
+for (i in 1:length(allspecies))
 {
 temp<-lifehistory %>%
   filter(lifehistory$Species==allspecies[i]) 
 
 Linf<- temp$Value[temp$Parameter=="Linf"]
+Linf<-as.numeric(Linf)
 k<-temp$Value[temp$Parameter=="K"]
+k<-as.numeric(k)
 t0<-temp$Value[temp$Parameter=="t0"]
+t0<-as.numeric(t0)
 M<-temp$Value[temp$Parameter=="M"]
+M<-as.numeric(M)
 
 filter_length<-length_data%>%
   filter(length_data$Species.ID==allspecies2[i])
@@ -28,6 +42,7 @@ filter_length<-length_data%>%
 ## Solve for Lc ##
 # Find the index of the mode
 x <- seq(along=length_freq$Freq)[length_freq$Freq==max(length_freq$Freq)]
+x<-x[1]
 #Find the value associated with the index above
 Lc <- length_freq[x, 1]
 Lc <-as.numeric(as.character(Lc))
@@ -64,22 +79,29 @@ LBAR <- sum(l_between*prop)/sum(prop)
 ##Solve for Z (total mortality) and F (fishing mortality) ##
 Z <- k*(Linf-LBAR)/(LBAR-Lc)
 F <- Z-M
+Fcurr<-F/M
 
 ## Export results in table ##
 # Create blank dataframe and then fill with appropriate results
-results <- data.frame(matrix(0, nrow=length(allspecies)),Species=NA, LBAR=NA, Z=NA, M=NA, F=NA)
-results$LBAR <- LBAR
-results$Z <- Z
-results$M <- M
-results$F <- F
-results$Species<-allspecies[i]
+results$Linf[i]<-Linf
+results$k[i]<-k
+results$M [i] <- M
+results$LBAR [i] <- LBAR
+results$Z [i]<- Z
+results$F [i]<- F
+results$Species[i]<-as.character(allspecies[i])
+results$n[i]<-length(lengths)
+results$Fcurr[i]<-Fcurr
 # Print table into a csv
-write.table(results, file="results_baseline.csv")
-
 
 ## Print histogram ##
-H <- unlist(lapply(seq_along(lengths$frequency), 
-       function(x)rep(lengths[x,1], lengths[x,2])))
-hist(H, xlab="Length", ylab="Frequency", main="Length Distribution")
 
+n<-length(lengths)
+sp<-lifehistory$Sci.Name[i]
+sp<-as.character(sp)
+hist(lengths, xlab="Length", ylab="Frequency", main=substitute(expr=paste(italic(sp)),env=list(sp=sp)),freq=TRUE)
+mtext(paste("n =",n),side=3)
+print(i)
+i=i+1
 }
+write.csv(results, file="results_2.csv",sep=" ")
