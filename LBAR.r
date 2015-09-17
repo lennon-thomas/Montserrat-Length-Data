@@ -5,19 +5,22 @@ library(dplyr)
 ### Read in life history parameter data and length frequency data######
 
 
+#lifehistory<-read.csv("Montserrat Life History Parms1.csv")
 lifehistory<-read.csv("Montserrat Life History Parms2.csv")
+lifehistory<- lifehistory[order(lifehistory$Species),] 
 length_data<-read.csv("Montserrat Species Length Composition Data_July2.csv")
+length_data<- length_data[order(length_data$Species.ID),] 
 allspecies<-unique(lifehistory$Species)
-allspecies<-sort(allspecies)
+
 
 allspecies2<-unique(length_data$Species.ID)
 commonname<-unique(length_data$Species.common.name)
 commonname<-sort(commonname)
 
-allspecies2<-sort(allspecies2)
+
 lifehistory[is.na(lifehistory)] <- 0
-results <- data.frame(matrix(0, nrow=length(allspecies)),Species=NA, Linf=NA, k=NA, M=NA,LBAR=NA, Z=NA, F=NA, n=NA, Fcurr=NA)
-i=1
+results <- data.frame(matrix(0, nrow=length(allspecies)),Species=NA, Linf=NA, k=NA, M=NA,LBAR=NA, Lc=NA,Z=NA, F=NA, n=NA, Fcurr=NA)
+i=12
 for (i in 1:length(allspecies))
 {
 temp<-lifehistory %>%
@@ -44,7 +47,8 @@ filter_length<-length_data%>%
 x <- seq(along=length_freq$Freq)[length_freq$Freq==max(length_freq$Freq)]
 x<-x[1]
 #Find the value associated with the index above
-Lc <- length_freq[x, 1]
+Lc<-length_freq$lengths[1]
+#Lc <- length_freq[x, 1]
 Lc <-as.numeric(as.character(Lc))
 ## Find lengths that are between Lc and Linf ##
 # Set the boundaries
@@ -87,6 +91,7 @@ results$Linf[i]<-Linf
 results$k[i]<-k
 results$M [i] <- M
 results$LBAR [i] <- LBAR
+results$Lc[i]<-Lc
 results$Z [i]<- Z
 results$F [i]<- F
 results$Species[i]<-as.character(allspecies[i])
@@ -97,11 +102,35 @@ results$Fcurr[i]<-Fcurr
 ## Print histogram ##
 
 n<-length(lengths)
-sp<-lifehistory$Sci.Name[i]
+
+
+species<-unique(lifehistory$Sci.Name)
+sp<-species[i]
 sp<-as.character(sp)
 hist(lengths, xlab="Length", ylab="Frequency", main=substitute(expr=paste(italic(sp)),env=list(sp=sp)),freq=TRUE)
 mtext(paste("n =",n),side=3)
 print(i)
 i=i+1
 }
-write.csv(results, file="results_2.csv",sep=" ")
+
+#write.csv(results, file="final_results_lc.csv")
+
+final<-read.csv("final_results_lc.csv")
+final<-final[,-1]
+final_results_lc<-rbind(final,results)
+final_results_lc<- final_results_lc[order(final_results_lc$Species),] 
+
+write.csv(final_results_lc,"final_results_lc.csv")
+
+
+
+
+#write.csv(results, file="final_results.csv")
+
+# final<-read.csv("final_results.csv")
+# final<-final[,-1]
+# final_results<-rbind(final,results)
+# final_results<- final_results[order(final_results$Species),] 
+# 
+# write.csv(final_results,"final_results.csv")
+
