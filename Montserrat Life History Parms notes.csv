@@ -1,0 +1,111 @@
+Parameter,Species,Value,Source,Sci Name
+Linf,ACANCO,18.8,SEDAR30 low,Acanthurus coeruleus
+K,ACANCO,1.03,SEDAR30 low,Acanthurus coeruleus
+t0,ACANCO,-0.15,SEDAR30 low,Acanthurus coeruleus
+tmax,ACANCO,15,SEDAR30 ,Acanthurus coeruleus
+M,ACANCO,0.19971548,Estimated from tmax,Acanthurus coeruleus
+Wa,ACANCO,0.0305,Bohnsack & Harper 1988,Acanthurus coeruleus
+Wb,ACANCO,3,Bohnsack & Harper 1988,Acanthurus coeruleus
+m50,ACANCO,,,Acanthurus coeruleus
+m95,ACANCO,,,Acanthurus coeruleus
+Linf,BALIVE,41.5,SEDAR 30/Manooch & Drennon 1987,Balistes vetula
+K,BALIVE,0.3,SEDAR 30/Manooch & Drennon 1987,Balistes vetula
+t0,BALIVE,-0.6,SEDAR 30/Manooch & Drennon 1987,Balistes vetula
+tmax,BALIVE,7,SEDAR 30/Manooch & Drennon 1987,Balistes vetula
+M,BALIVE,0.42796,Estimated from tmax,Balistes vetula
+Wa,BALIVE,0.000101,Manooch & Drennon 1987,Balistes vetula
+Wb,BALIVE,2.75,Manooch & Drennon 1987,Balistes vetula
+m50,BALIVE,,,Balistes vetula
+m95,BALIVE,,,Balistes vetula
+Linf,ACANCH,24.95,Choat & Robertson 2002,Acanthurus chirurgus
+K,ACANCH,0.705,Choat & Robertson 2002,Acanthurus chirurgus
+t0,ACANCH,-0.19,Choat & Robertson 2002,Acanthurus chirurgus
+tmax,ACANCH,13,Choat & Robertson 2002,Acanthurus chirurgus
+M,ACANCH,0.230440944,Estimated from tmax,Acanthurus chirurgus
+Wa,ACANCH,0.0525,Bohnsack & Harper 1988,Acanthurus chirurgus
+Wb,ACANCH,2.783,Bohnsack & Harper 1988,Acanthurus chirurgus
+m50,ACANCH,,,Acanthurus chirurgus
+m95,ACANCH,,,Acanthurus chirurgus
+Linf,CARARU,59.27,Garcia-Arteaga & Reshetnikov 1985,Caranx ruber
+K,CARARU,0.14,Garcia-Arteaga & Reshetnikov 1985,Caranx ruber
+t0,CARARU,-1.73,Garcia-Arteaga & Reshetnikov 1985,Caranx ruber
+tmax,CARARU,20,Ault et al. 2013,Caranx ruber
+M,CARARU,0.149786614,assumed,Caranx ruber
+Wa,CARARU,0.0362,Bohnsack & Harper 1988,Caranx ruber
+Wb,CARARU,2.748,Bohnsack & Harper 1988,Caranx ruber
+m50,CARARU,,,Caranx ruber
+m95,CARARU,,,Caranx ruber
+Linf,HOLOAD,26.5,Wyatt 1983,Holocentrus adscensionis
+K,HOLOAD,1.18,Wyatt 1983,Holocentrus adscensionis
+t0,HOLOAD,,Wyatt 1983,Holocentrus adscensionis
+tmax,HOLOAD,8.4,Fish base,Holocentrus adscensionis
+M,HOLOAD,0.356634794,Fish base,Holocentrus adscensionis
+Wa,HOLOAD,0.0198,Bohnsack & Harper 1988,Holocentrus adscensionis
+Wb,HOLOAD,3,Bohnsack & Harper 1988,Holocentrus adscensionis
+m50,HOLOAD,14.6,Shinozaki-Mendes et al 2007,Holocentrus adscensionis
+m95,HOLOAD,16.644,Shinozaki-Mendes et al 2007,Holocentrus adscensionis
+Linf,LUTJMA,58.89,Ault et al 1998,Lutjanus mahogoni
+K,LUTJMA,0.097,Ault et al 1998,Lutjanus mahogoni
+t0,LUTJMA,-1.728,Ault et al 1998,Lutjanus mahogoni
+tmax,LUTJMA,10,Ault et al 1998,Lutjanus mahogoni
+M,LUTJMA,0.3,Ault et al 1998,Lutjanus mahogoni
+Wa,LUTJMA,0.0428,Bohnsack & Harper 1988,Lutjanus mahogoni
+Wb,LUTJMA,2.719,Bohnsack & Harper 1988,Lutjanus mahogoni
+m50,LUTJMA,,,Lutjanus mahogoni
+m95,LUTJMA,,,Lutjanus mahogoni
+Linf,LUTJVI,74.07,SEDAR26 Base,Lutjanus vivanus
+K,LUTJVI,0.1,SEDAR26 Base,Lutjanus vivanus
+t0,LUTJVI,-1.87,SEDAR26 Base,Lutjanus vivanus
+tmax,LUTJVI,9,SEDAR26 Base,Lutjanus vivanus
+M,LUTJVI,0.332859142,Estimated from tmax,Lutjanus vivanus
+Wa,LUTJVI,0.0373,Bohnsack & Harper 1988,Lutjanus vivanus
+Wb,LUTJVI,2.7812,Bohnsack & Harper 1988,Lutjanus vivanus
+m50,LUTJVI,32.78846154,SEDAR26 Base,Lutjanus vivanus
+m95,LUTJVI,37.37884615,SEDAR26 Base,Lutjanus vivanus
+Linf,LUTJSY,45.49,Martinez-Andrade 2003,Lutjanus synagris
+K,LUTJSY,0.27,Martinez-Andrade 2003,Lutjanus synagris
+t0,LUTJSY,-0.815,Martinez-Andrade 2003,Lutjanus synagris
+tmax,LUTJSY,12.2,Martinez-Andrade 2003,Lutjanus synagris
+M,LUTJSY,0.245551826,Estimated from M-A tmax,Lutjanus synagris
+Wa,LUTJSY,0.0202,Bohnsack & Harper 1988,Lutjanus synagris
+Wb,LUTJSY,3,Bohnsack & Harper 1988,Lutjanus synagris
+m50,LUTJSY,,,Lutjanus synagris
+m95,LUTJSY,,,Lutjanus synagris
+Linf,SCARCH,23.75,SEDAR26 Base,Sparisoma chrysopterum
+K,SCARCH,0.71,SEDAR26 Base,Sparisoma chrysopterum
+t0,SCARCH,-0.05,SEDAR26 Base,Sparisoma chrysopterum
+tmax,SCARCH,7,SEDAR26 Base,Sparisoma chrysopterum
+M,SCARCH,0.427961753,Estimated from SEDAR26 tmax,Sparisoma chrysopterum
+Wa,SCARCH,0.02,SEDAR26 Base,Sparisoma chrysopterum
+Wb,SCARCH,3,SEDAR26 Base,Sparisoma chrysopterum
+m50,SCARCH,,,Sparisoma chrysopterum
+m95,SCARCH,,,Sparisoma chrysopterum
+Linf,SERRFU,37.7,Burton et al 2015,Cephalopholis fulva
+K,SERRFU,0.2,Burton et al 2015,Cephalopholis fulva
+t0,SERRFU,-3.53,Burton et al 2015,Cephalopholis fulva
+tmax,SERRFU,19,Burton et al 2015,Cephalopholis fulva
+M,SERRFU,0.15767012,Estimated from Burton tmax,Cephalopholis fulva
+Wa,SERRFU,0.0174,Bohnsack & Harper 1988,Cephalopholis fulva
+Wb,SERRFU,3,Bohnsack & Harper 1988,Cephalopholis fulva
+m50,SERRFU,,,Cephalopholis fulva
+m95,SERRFU,,,Cephalopholis fulva
+Linf,SERRGU,55.775,Sadovy et al 1992 Puerto Rico / S/T.average,Cephalopholis guttas
+K,SERRGU,0.0859,Sadovy et al 1992 Puerto Rico / S/T.average,Cephalopholis guttas
+t0,SERRGU,-3.817,Sadovy et al 1992 Puerto Rico / S/T.average,Cephalopholis guttas
+tmax,SERRGU,17.5,Sadovy et al 1992 Puerto Rico / S/T.average,Cephalopholis guttas
+M,SERRGU,0.171184701,Sadovy et al 1992 Puerto Rico / S/T.average,Cephalopholis guttas
+tmax,SERRGU,22,Luckhurst et al 1992,Cephalopholis guttas
+M,SERRGU,0.136169649,Estimated from tmax (Luckhurst et al 1992),Cephalopholis guttas
+Wa,SERRGU,0.0111,Bohnsack & Harper 1988,Cephalopholis guttas
+Wb,SERRGU,3.1124,Bohnsack & Harper 1988,Cephalopholis guttas
+m50,SERRGU,,,Cephalopholis guttas
+m95,SERRGU,,,Cephalopholis guttas
+Linf,PTERVO,42.5,Barbour et al 2011,Pterois volitans
+K,PTERVO,0.47,Barbour et al 2011,Pterois volitans
+t0,PTERVO,0,Barbour et al 2011,Pterois volitans
+tmax,PTERVO,10,Fishbase,Pterois volitans
+M,PTERVO,0.299573227,calculated from M,Pterois volitans
+Wa,PTERVO,,,Pterois volitans
+Wb,PTERVO,,,Pterois volitans
+m50,PTERVO,,,Pterois volitans
+m95,PTERVO,,,Pterois volitans
