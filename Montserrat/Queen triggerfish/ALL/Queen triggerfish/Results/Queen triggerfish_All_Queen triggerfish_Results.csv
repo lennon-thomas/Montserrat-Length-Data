@@ -1,0 +1,5 @@
+"","Species","Site","Assessment","Year","Method","SampleSize","Value","LowerCI","UpperCI","SD","Metric","Flag"
+"1","Queen triggerfish","All","LBAR",2015,"LBAR",35,"1.01971301397485",NA,NA,NA,"FvM","None"
+"2","Queen triggerfish","All","LBAR",2015,"LBAR",35,"1.01971301397485",-999,11.7582074461577,143.638644471859,"FvM","None"
+"3","Queen triggerfish","All","LBAR",2015,"LBSPR",35,"0.7435858",0.44604875,1,0.186875457685626,"SPR","None"
+"4","Queen triggerfish","All","LBAR",2015,"LBSPR",35,"0.616345501213257",5.0432325e-08,1.9429475,0.584208113087774,"FvM",NA

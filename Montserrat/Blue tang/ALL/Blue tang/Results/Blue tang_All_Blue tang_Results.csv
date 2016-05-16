@@ -1,0 +1,4 @@
+"","Species","Site","Assessment","Year","Method","SampleSize","Value","LowerCI","UpperCI","SD","Metric","Flag"
+"1","Blue tang","All","LBSPR",2015,"LBAR",60,"10.7385752677872",5.4239446635688,25.1245460899768,4.05671628743509,"FvM","None"
+"2","Blue tang","All","LBSPR",2015,"LBSPR",60,"0.194184880382775",0.121389,0.280521,0.0431038163633976,"SPR","None"
+"3","Blue tang","All","LBSPR",2015,"LBSPR",60,"5.7399033492823",3.06764,12.9185,2.79457189509266,"FvM",NA

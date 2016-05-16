@@ -1,0 +1,13 @@
+Species,Assessment,bio,fish
+Doctorfish,Catch-MSY,0.92,0.98
+Blue tang,Catch-MSY,1,0.86
+Queen triggerfish,Catch-MSY,1.01,0.82
+Red hind,Catch-MSY,1.03,1
+Squirrelfish,Catch-MSY,0.92,0.61
+Mahogany snapper,Catch-MSY,0.83,0.38
+Doctorfish,LB-SPR,0.666666667,2.5
+Blue tang,LB-SPR,0.666666667,5.3
+Queen triggerfish,LB-SPR,2.466666667,0.62
+Red hind,LB-SPR,1,1.8708
+Squirrelfish,LB-SPR,0.533333333,6.25
+Mahogany snapper,LB-SPR,0.9,1.27

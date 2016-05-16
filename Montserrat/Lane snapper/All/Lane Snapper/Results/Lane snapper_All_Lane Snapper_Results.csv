@@ -1,0 +1,4 @@
+"","Species","Site","Assessment","Year","Method","SampleSize","Value","LowerCI","UpperCI","SD","Metric","Flag"
+"1","Lane Snapper","All","CatchMSY",2015,"LBAR",36,"7.36502744119929",4.42787829036186,18.1443812734992,2.33754305585027,"FvM","None"
+"2","Lane Snapper","All","CatchMSY",2015,"LBSPR",36,"0.168696",0.0676196,0.347459,0.0779222917159016,"SPR","None"
+"3","Lane Snapper","All","CatchMSY",2015,"LBSPR",36,"7.79036170212766",4.0363025,14.85245,2.81737724435549,"FvM",NA

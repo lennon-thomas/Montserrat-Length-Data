@@ -1,0 +1,3 @@
+"","Species","Site","Assessment","Year","Method","SampleSize","Value","LowerCI","UpperCI","SD","Metric","Flag"
+"1","Red hind","All","Lbar",2015,"LBSPR",108,0.306355,0.237397,0.449476,0.0781641813748471,"SPR","None"
+"2","Red hind","All","Lbar",2015,"LBSPR",108,1.755124,0.934734,2.1413125,0.439864435030208,"FvM",NA
