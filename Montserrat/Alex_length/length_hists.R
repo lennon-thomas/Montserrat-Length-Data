@@ -39,7 +39,7 @@ SA_n_df = data.frame(Species.ID=rownames(SA_species), n = SA_species)
 SA_n_df$xpos = c(0, 0, 0, 5, 25, 15, 10)
 SA_n_df$ypos = c(15, 150, 3, 10, 20, 3, 6)
 
-# Plot hists for length data
+# Plot hists for all species n>30 from length data
 library(ggplot2)
 
 length_h1 = ggplot(data = data_threshold) +
@@ -68,10 +68,32 @@ SA_h2 = SA_h1 + facet_wrap(~Species.ID, scales = "free")
 geom_text(aes(x=Inf,y=Inf, label=paste("n =", length(data_threshold$Length..cm.)))) 
 
 
+#blue tang spaitial length dist
+
+ACANCO_h1 = ggplot(data = data_threshold[data_threshold$Species.ID=="ACANCO",]) +
+  geom_histogram(aes(x = Length..cm.),binwidth = 1) +
+  #geom_text(data=n_df,aes(x=xpos,y=ypos, label=paste("n=", n)), hjust=0) +
+  theme_minimal()
+
+ACANCO_h2 = ACANCO_h1 + facet_wrap(~Area.fished, scales = "free") 
 
 
+#doctorfish spaitial length dist
+
+ACANCH_h1 = ggplot(data = data_threshold[data_threshold$Species.ID=="ACANCH",]) +
+  geom_histogram(aes(x = Length..cm.),binwidth = 1) +
+  #geom_text(data=n_df,aes(x=xpos,y=ypos, label=paste("n=", n)), hjust=0) +
+  theme_minimal()
+
+ACANCH_h2 = ACANCH_h1 + facet_wrap(~Area.fished, scales = "free") 
               
 #aes(x=Inf,y=Inf, label=paste("n =", length(data_threshold$Length..cm.)))) +
 
 
+SERRGU_h1 = ggplot(data = data_threshold[data_threshold$Species.ID=="SERRGU",]) +
+  geom_histogram(aes(x = Length..cm.),binwidth = 1) +
+  #geom_text(data=n_df,aes(x=xpos,y=ypos, label=paste("n=", n)), hjust=0) +
+  theme_minimal()
+
+SERRGU_h2 = SERRGU_h1 + facet_wrap(~Area.fished, scales = "free") 
 

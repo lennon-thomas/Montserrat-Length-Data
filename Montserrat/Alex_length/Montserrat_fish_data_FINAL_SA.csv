@@ -3905,7 +3905,7 @@ DATE,EXPEDITION,STATION N1/4,DEPTH_M,TRANSECT LENGTH,TIME START,TIME END,DURAT,D
 24-Oct-15,MONTSERRAT,WPT0248,20,30,1000,1015,15,DG,DH,QUAN,LUMA,Lutjanidae ,Lutjanus ,Lutjanus mahogoni ,mahogany snapper ,1,24,24,24,,0.0429,2.719,0.242801664
 25-Oct-15,MONTSERRAT,WPT0250,10,30,8:19,8:34,15,DG,DH,QUAN,LUMA,Lutjanidae ,Lutjanus ,Lutjanus mahogoni ,mahogany snapper ,1,28,28,28,,0.0429,2.719,0.369215546
 19-Oct-15,MONTSERRAT,1188,10,30,13:35,14:02,11,SM,AC,QUAL,LUMA,Lutjanidae ,Lutjanus ,Lutjanus mahogoni ,mahogany snapper ,1,,,,Off transect,0.0429,2.719,0
-19-Oct-15,MONTSERRAT,1187,10,30,12:45,13:20,14,SM,AC,QUAL,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni ,mahogony snapper,,,,,Off transect,0.0429,2.719,0
+19-Oct-15,MONTSERRAT,1187,10,30,12:45,13:20,14,SM,AC,QUAL,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni ,mahogany snapper,,,,,Off transect,0.0429,2.719,0
 24-Oct-15,MONTSERRAT,1230,17,30,12:36,13:51,14,SM,AC,QUAN,LUMA,Lutjanidae ,Lutjanus ,Lutjanus mahogoni ,mahogany snapper ,1,18,18,18,,0.0429,2.719,0.111056309
 13-Oct-15,MONTSERRAT,MSA-076,6,30,1052,1116,24,GM,AE,QUAN,LUSY,Lutjanidae ,Lutjanus ,Lutjanus synagris ,lane snapper,1,1,1,1,,0.018,2.981,0.000018
 15-Oct-15,MONTSERRAT,MSA154,4,23,109,126,17,MC,RM,QUAN,LUSY,Lutjanidae ,Lutjanus ,Lutjanus synagris ,lane snapper ,1,15,15,15,,0.018,2.981,0.057703286
