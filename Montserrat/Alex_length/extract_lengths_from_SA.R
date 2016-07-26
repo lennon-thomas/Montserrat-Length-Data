@@ -20,7 +20,7 @@ SA_data <- read.csv('Montserrat_fish_data_FINAL_SA.csv', strip.white=TRUE, strin
     setNames(lookup$Species.ID, lookup$SPECIES_CODE)
   )) %>%
   filter(Species.ID %in% names(species[species > 30])) %>%
-  select(DATATYPE, COMMON_NAME, NUMBER, MIN, MAX, AVG, Species.ID)
+  select(DATATYPE, COMMON_NAME, DIVER, NUMBER, MIN, MAX, AVG, Species.ID)
 
 #select only complete observations (inclds number, min, max)  
 SA_data = SA_data[complete.cases(SA_data[, 3:5]),]
