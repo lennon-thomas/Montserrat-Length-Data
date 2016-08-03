@@ -49,7 +49,13 @@ length_h1 = ggplot(data = data_threshold) +
 
 length_h2 = length_h1 + facet_wrap(~Species.ID, scales = "free") 
  
+#write hist to pdf
+dev.off()
 
+pdf('length_group_hist.pdf')
+length_h1 + facet_wrap(~Species.ID, scales = "free")
+
+dev.off()
 
 # Plot hists for SA data
 library(ggplot2)
@@ -61,7 +67,13 @@ SA_h1 = ggplot(data = SA_lengths) +
 
 SA_h2 = SA_h1 + facet_wrap(~Species.ID, scales = "free") 
   
+#write hist to pdf
+dev.off()
 
+pdf('SA_group_hist.pdf')
+SA_h1 + facet_wrap(~Species.ID, scales = "free") 
+
+dev.off()
 
 
 
