@@ -1,393 +1,392 @@
-,DATATYPE,COMMON_NAME,DIVER,NUMBER,MIN,MAX,AVG,Species.ID
-1,QUAN,doctorfish,DG,1,17,17,17,ACANCH
-2,QUAN,doctorfish,DG,1,22,22,22,ACANCH
-3,QUAN,doctorfish,DG,2,24,24,24,ACANCH
-4,QUAN,doctorfish,DG,1,19,19,19,ACANCH
-5,QUAN,doctorfish,DG,1,23,23,23,ACANCH
-6,QUAN,doctorfish,DG,1,22,22,22,ACANCH
-7,QUAN,doctorfish,DG,1,25,25,25,ACANCH
-8,QUAN,doctorfish,DG,1,27,27,27,ACANCH
-9,QUAN,doctorfish,DG,1,22,22,22,ACANCH
-10,QUAN,doctorfish,GM,1,1,1,1,ACANCH
-11,QUAN,doctorfish,GM,1,1,1,1,ACANCH
-12,QUAN,doctorfish,GM,2,1,1,1,ACANCH
-13,QUAL,doctorfish,MC,2,18,18,18,ACANCH
-14,QUAN,doctorfish,DG,1,23,23,23,ACANCH
-15,QUAN,doctorfish,DG,2,25,25,25,ACANCH
-16,QUAN,doctorfish,DG,1,24,24,24,ACANCH
-17,QUAN,doctorfish,DG,1,25,25,25,ACANCH
-18,QUAN,doctorfish,DG,1,26,26,26,ACANCH
-19,QUAN,doctorfish,DG,1,25,25,25,ACANCH
-20,QUAN,doctorfish,DG,1,25,25,25,ACANCH
-21,QUAN,doctorfish,GM,13,4,7,5.5,ACANCH
-22,QUAN,doctorfish,MC,1,18,18,18,ACANCH
-23,QUAN,doctorfish,HK,1,18,18,18,ACANCH
-24,QUAL,doctorfish,HK,,NA,NA,NA,ACANCH
-25,QUAN,doctorfish,MC,1,25,25,25,ACANCH
-26,QUAN,doctorfish,MC,2,25,25,25,ACANCH
-27,QUAN,doctorfish,DG,1,27,27,27,ACANCH
-28,QUAN,doctorfish,DG,1,21,21,21,ACANCH
-29,QUAN,doctorfish,DG,2,22,22,22,ACANCH
-30,QUAN,doctorfish,EG,10,20,25,22.5,ACANCH
-31,QUAN,doctorfish,EG,1,20,20,20,ACANCH
-32,QUAN,doctorfish,DG,1,23,23,23,ACANCH
-33,QUAN,doctorfish,DG,1,25,25,25,ACANCH
-34,QUAN,doctorfish,DG,25,17,28,22.5,ACANCH
-35,QUAN,doctorfish,SM,2,24,24,24,ACANCH
-36,QUAN,doctorfish,SM,1,18,18,18,ACANCH
-37,QUAN,doctorfish,SM,1,30,30,30,ACANCH
-38,QUAN,doctorfish,SM,1,10,10,10,ACANCH
-39,QUAN,doctorfish,SM,1,18,18,18,ACANCH
-40,QUAN,doctorfish,SM,1,20,20,20,ACANCH
-41,QUAN,doctorfish,AE,20,15,23,19,ACANCH
-42,QUAN,blue tang,SM,1,22,22,22,ACANCO
-43,QUAN,blue tang,SM,1,20,20,20,ACANCO
-44,QUAN,blue tang,DG,1,16,16,16,ACANCO
-45,QUAN,blue tang,DG,1,18,18,18,ACANCO
-46,QUAN,blue tang,DG,1,8,8,8,ACANCO
-47,QUAN,blue tang,DG,7,18,20,19,ACANCO
-48,QUAN,blue tang,DG,1,16,16,16,ACANCO
-49,QUAN,blue tang,DG,1,19,19,19,ACANCO
-50,QUAN,blue tang,DG,1,5,5,5,ACANCO
-51,QUAN,blue tang,DG,1,14,14,14,ACANCO
-52,QUAN,blue tang,EG,2,12,12,12,ACANCO
-53,QUAN,blue tang,EG,1,20,20,20,ACANCO
-54,QUAN,blue tang,EG,1,25,25,25,ACANCO
-55,QUAN,blue tang,EG,1,14,14,14,ACANCO
-56,QUAN,blue tang,EG,1,15,15,15,ACANCO
-57,QUAN,blue tang,EG,1,25,25,25,ACANCO
-58,QUAN,blue tang,EG,4,15,18,16.5,ACANCO
-59,QUAN,blue tang,EG,6,15,15,15,ACANCO
-60,QUAN,blue tang,EG,10,12,15,13.5,ACANCO
-61,QUAN,blue tang,EG,1,10,10,10,ACANCO
-62,QUAN,blue tang,EG,1,12,12,12,ACANCO
-63,QUAN,blue tang,EG,2,18,18,18,ACANCO
-64,QUAN,blue tang,EG,1,10,10,10,ACANCO
-65,QUAN,blue tang,EG,1,20,20,20,ACANCO
-66,QUAN,blue tang,EG,1,25,25,25,ACANCO
-67,QUAN,blue tang,EG,1,8,8,8,ACANCO
-68,QUAN,blue tang,EG,1,25,25,25,ACANCO
-69,QUAN,blue tang,EG,1,20,20,20,ACANCO
-70,QUAN,blue tang,MC,5,30,30,30,ACANCO
-71,QUAN,blue tang,MC,3,15,15,15,ACANCO
-72,QUAN,blue tang,MC,2,20,22,21,ACANCO
-73,QUAN,blue tang,MC,1,30,30,30,ACANCO
-74,QUAN,blue tang,DG,1,15,15,15,ACANCO
-75,QUAN,blue tang,DG,1,16,16,16,ACANCO
-76,QUAN,blue tang,DG,1,18,18,18,ACANCO
-77,QUAN,blue tang,GM,1,1,1,1,ACANCO
-78,QUAN,blue tang,GM,8,2,4,3,ACANCO
-79,QUAN,blue tang,GM,4,2,2,2,ACANCO
-80,QUAN,blue tang,GM,1,1,1,1,ACANCO
-81,QUAN,blue tang,EG,1,20,20,20,ACANCO
-82,QUAN,blue tang,EG,2,23,23,23,ACANCO
-83,QUAN,blue tang,EG,1,20,20,20,ACANCO
-84,QUAN,blue tang,EG,1,25,25,25,ACANCO
-85,QUAN,blue tang,EG,1,24,24,24,ACANCO
-86,QUAN,blue tang,EG,1,30,30,30,ACANCO
-87,QUAN,blue tang,EG,1,23,23,23,ACANCO
-88,QUAN,blue tang,EG,2,20,20,20,ACANCO
-89,QUAN,blue tang,EG,1,25,25,25,ACANCO
-90,QUAN,blue tang,EG,4,20,23,21.5,ACANCO
-91,QUAN,blue tang,EG,1,25,25,25,ACANCO
-92,QUAN,blue tang,EG,5,20,25,22.5,ACANCO
-93,QUAN,blue tang,EG,10,20,30,25,ACANCO
-94,QUAN,blue tang,EG,10,20,30,25,ACANCO
-95,QUAN,blue tang,MC,5,15,18,16.5,ACANCO
-96,QUAN,blue tang,MC,2,25,25,25,ACANCO
-97,QUAN,blue tang,MC,4,20,25,22.5,ACANCO
-98,QUAN,blue tang,MC,19,13,15,14,ACANCO
-99,QUAN,blue tang,HK,2,4,4,4,ACANCO
-100,QUAN,blue tang,HK,1,12,12,12,ACANCO
-101,QUAN,blue tang,HK,1,15,15,15,ACANCO
-102,QUAN,blue tang,DG,2,13,13,13,ACANCO
-103,QUAN,blue tang,DG,1,14,14,14,ACANCO
-104,QUAN,blue tang,DG,2,15,15,15,ACANCO
-105,QUAN,blue tang,DG,1,16,16,16,ACANCO
-106,QUAN,blue tang,DG,1,17,17,17,ACANCO
-107,QUAN,blue tang,GM,7,3,4,3.5,ACANCO
-108,QUAN,blue tang,MC,4,15,20,17.5,ACANCO
-109,QUAN,blue tang,MC,4,25,30,27.5,ACANCO
-110,QUAN,blue tang,EG,1,22,22,22,ACANCO
-111,QUAN,blue tang,EG,3,25,30,27.5,ACANCO
-112,QUAN,blue tang,EG,1,30,30,30,ACANCO
-113,QUAN,blue tang,EG,1,18,18,18,ACANCO
-114,QUAN,blue tang,MC,1,20,20,20,ACANCO
-115,QUAN,blue tang,MC,10,15,15,15,ACANCO
-116,QUAN,blue tang,MC,5,18,20,19,ACANCO
-117,QUAN,blue tang,MC,31,12,15,13.5,ACANCO
-118,QUAN,blue tang,MC,4,20,20,20,ACANCO
-119,QUAN,blue tang,MC,9,15,20,17.5,ACANCO
-120,QUAN,blue tang,MC,1,5,5,5,ACANCO
-121,QUAL,blue tang,HK,,NA,NA,NA,ACANCO
-122,QUAN,blue tang,HK,6,12,16,14,ACANCO
-123,QUAN,blue tang,HK,4,15,17,16,ACANCO
-124,QUAN,blue tang,HK,7,13,15,14,ACANCO
-125,QUAN,blue tang,DG,1,14,14,14,ACANCO
-126,QUAN,blue tang,DG,1,15,15,15,ACANCO
-127,QUAN,blue tang,DG,2,16,16,16,ACANCO
-128,QUAN,blue tang,EG,1,22,22,22,ACANCO
-129,QUAN,blue tang,EG,2,23,23,23,ACANCO
-130,QUAN,blue tang,EG,1,23,23,23,ACANCO
-131,QUAN,blue tang,EG,1,20,20,20,ACANCO
-132,QUAN,blue tang,EG,1,24,24,24,ACANCO
-133,QUAN,blue tang,EG,1,21,21,21,ACANCO
-134,QUAL,blue tang,MC,1,12,12,12,ACANCO
-135,QUAN,blue tang,MC,1,12,12,12,ACANCO
-136,QUAN,blue tang,DG,2,17,17,17,ACANCO
-137,QUAN,blue tang,DG,1,16,16,16,ACANCO
-138,QUAN,blue tang,DG,1,17,17,17,ACANCO
-139,QUAN,blue tang,DG,1,18,18,18,ACANCO
-140,QUAN,blue tang,DG,1,16,16,16,ACANCO
-141,QUAN,blue tang,DG,1,18,18,18,ACANCO
-142,QUAN,blue tang,DG,5,16,25,20.5,ACANCO
-143,QUAN,blue tang,DG,26,17,21,19,ACANCO
-144,QUAN,blue tang,DG,25,17,19,18,ACANCO
-145,QUAN,blue tang,EG,1,20,20,20,ACANCO
-146,QUAN,blue tang,EG,1,10,10,10,ACANCO
-147,QUAN,blue tang,EG,1,18,18,18,ACANCO
-148,QUAN,blue tang,EG,1,20,20,20,ACANCO
-149,QUAN,blue tang,EG,1,6,6,6,ACANCO
-150,QUAN,blue tang,EG,1,25,25,25,ACANCO
-151,QUAL,blue tang,EG,1,30,30,30,ACANCO
-152,QUAN,blue tang,HK,1,18,18,18,ACANCO
-153,QUAN,blue tang,HK,1,2,2,2,ACANCO
-154,QUAN,blue tang,DG,60,14,17,15.5,ACANCO
-155,QUAN,blue tang,DG,1,16,16,16,ACANCO
-156,QUAN,blue tang,DG,1,17,17,17,ACANCO
-157,QUAN,blue tang,DG,1,20,20,20,ACANCO
-158,QUAN,blue tang,DG,1,15,15,15,ACANCO
-159,QUAN,blue tang,GM,21,2,5,3.5,ACANCO
-160,QUAN,blue tang,GM,16,1,5,3,ACANCO
-161,QUAN,blue tang,MC,1,8,8,8,ACANCO
-162,QUAN,blue tang,MC,52,12,18,15,ACANCO
-163,QUAN,blue tang,MC,3,20,20,20,ACANCO
-164,QUAN,blue tang,MC,1,13,13,13,ACANCO
-165,QUAN,blue tang,HK,4,6,8,7,ACANCO
-166,QUAN,blue tang,HK,8,18,20,19,ACANCO
-167,QUAN,blue tang,HK,2,18,18,18,ACANCO
-168,QUAN,blue tang,EG,2,20,20,20,ACANCO
-169,QUAN,blue tang,EG,1,25,25,25,ACANCO
-170,QUAN,blue tang,EG,1,23,23,23,ACANCO
-171,QUAN,blue tang,EG,2,25,25,25,ACANCO
-172,QUAN,blue tang,EG,2,20,20,20,ACANCO
-173,QUAN,blue tang,EG,14,20,25,22.5,ACANCO
-174,QUAN,blue tang,MC,21,13,20,16.5,ACANCO
-175,QUAN,blue tang,MC,30,15,18,16.5,ACANCO
-176,QUAN,blue tang,HK,1,17,17,17,ACANCO
-177,QUAN,blue tang,HK,1,20,20,20,ACANCO
-178,QUAN,blue tang,HK,4,15,18,16.5,ACANCO
-179,QUAN,blue tang,HK,1,17,17,17,ACANCO
-180,QUAN,blue tang,HK,1,3,3,3,ACANCO
-181,QUAN,blue tang,HK,2,17,17,17,ACANCO
-182,QUAN,blue tang,HK,1,15,15,15,ACANCO
-183,QUAN,blue tang,DG,1,16,16,16,ACANCO
-184,QUAN,blue tang,DG,2,17,17,17,ACANCO
-185,QUAN,blue tang,EG,1,25,25,25,ACANCO
-186,QUAN,blue tang,EG,1,20,20,20,ACANCO
-187,QUAN,blue tang,EG,1,23,23,23,ACANCO
-188,QUAN,blue tang,EG,10,20,23,21.5,ACANCO
-189,QUAN,blue tang,EG,20,20,25,22.5,ACANCO
-190,QUAN,blue tang,EG,60,20,25,22.5,ACANCO
-191,QUAN,blue tang,EG,1,22,22,22,ACANCO
-192,QUAN,blue tang,EG,50,20,23,21.5,ACANCO
-193,QUAN,blue tang,MC,1,15,15,15,ACANCO
-194,QUAN,blue tang,MC,4,18,18,18,ACANCO
-195,QUAN,blue tang,DG,24,15,19,17,ACANCO
-196,QUAN,blue tang,DG,410,15,22,18.5,ACANCO
-197,QUAN,blue tang,DG,1,17,17,17,ACANCO
-198,QUAN,blue tang,DG,2,18,18,18,ACANCO
-199,QUAN,blue tang,DG,13,15,22,18.5,ACANCO
-200,QUAN,blue tang,GM,3,NA,NA,NA,ACANCO
-201,QUAN,blue tang,GM,4,NA,NA,NA,ACANCO
-202,QUAN,blue tang,MC,1,16,18,17,ACANCO
-203,QUAN,blue tang,MC,1,25,25,25,ACANCO
-204,QUAN,blue tang,MC,1,13,13,13,ACANCO
-205,QUAN,blue tang,MC,4,15,20,17.5,ACANCO
-206,QUAN,blue tang,HK,9,16,19,17.5,ACANCO
-207,QUAN,blue tang,EA,9,20,20,20,ACANCO
-208,QUAN,blue tang,HK,1,18,18,18,ACANCO
-209,QUAN,blue tang,EG,2,23,23,23,ACANCO
-210,QUAN,blue tang,EG,3,23,28,25.5,ACANCO
-211,QUAN,blue tang,EG,3,25,27,26,ACANCO
-212,QUAN,blue tang,EG,10,20,25,22.5,ACANCO
-213,QUAN,blue tang,EG,1,20,20,20,ACANCO
-214,QUAN,blue tang,EG,5,20,22,21,ACANCO
-215,QUAN,blue tang,EG,50,20,25,22.5,ACANCO
-216,QUAN,blue tang,EG,1,30,30,30,ACANCO
-217,QUAN,blue tang,EG,1,0,30,15,ACANCO
-218,QUAN,blue tang,EG,2,22,22,22,ACANCO
-219,QUAN,blue tang,EG,1,20,20,20,ACANCO
-220,QUAN,blue tang,EG,1,20,20,20,ACANCO
-221,QUAN,blue tang,EG,1,23,23,23,ACANCO
-222,QUAN,blue tang,SM,1,12,12,12,ACANCO
-223,QUAN,blue tang,SM,2,14,14,14,ACANCO
-224,QUAN,blue tang,SM,1,15,15,15,ACANCO
-225,QUAN,blue tang,SM,4,18,18,18,ACANCO
-226,QUAN,blue tang,SM,2,16,16,16,ACANCO
-227,QUAN,blue tang,SM,2,15,15,15,ACANCO
-228,QUAN,blue tang,SM,2,20,20,20,ACANCO
-229,QUAN,blue tang,SM,4,24,24,24,ACANCO
-230,QUAN,blue tang,SM,6,20,20,20,ACANCO
-231,QUAN,blue tang,SM,1,4,4,4,ACANCO
-232,QUAN,blue tang,SM,1,6,6,6,ACANCO
-233,QUAN,blue tang,SM,1,18,18,18,ACANCO
-234,QUAN,blue tang,SM,2,15,15,15,ACANCO
-235,QUAN,blue tang,SM,1,16,16,16,ACANCO
-236,QUAN,blue tang,SM,1,24,24,24,ACANCO
-237,QUAN,blue tang,SM,4,16,16,16,ACANCO
-238,QUAN,blue tang,SM,3,18,18,18,ACANCO
-239,QUAN,blue tang,GM,5,1,3,2,ACANCO
-240,QUAN,blue tang,AE,10,14,20,17,ACANCO
-241,QUAN,blue tang,AE,5,15,17,16,ACANCO
-242,QUAN,queen triggerfish,EG,1,22,22,22,BALIVE
-243,QUAN,queen triggerfish,MC,1,40,40,40,BALIVE
-244,QUAN,queen triggerfish,EG,1,35,35,35,BALIVE
-245,QUAN,queen triggerfish,MC,1,35,35,35,BALIVE
-246,QUAN,queen triggerfish,DG,1,25,25,25,BALIVE
-247,QUAN,queen triggerfish,DG,1,19,19,19,BALIVE
-248,QUAN,queen triggerfish,DG,1,21,21,21,BALIVE
-249,QUAN,queen triggerfish,DG,1,36,36,36,BALIVE
-250,QUAN,queen triggerfish,EG,1,35,35,35,BALIVE
-251,QUAN,queen triggerfish,EG,1,30,30,30,BALIVE
-252,QUAN,queen triggerfish,HK,1,17,17,17,BALIVE
-253,QUAN,queen triggerfish,DG,1,36,36,36,BALIVE
-254,QUAN,queen triggerfish,HK,1,22,22,22,BALIVE
-255,QUAN,queen triggerfish,DG,1,30,30,30,BALIVE
-256,QUAN,queen triggerfish,DG,1,31,31,31,BALIVE
-257,QUAN,queen triggerfish,SM,1,35,35,35,BALIVE
-258,QUAL,queen triggerfish,SM,1,36,36,36,BALIVE
-259,QUAN,queen triggerfish,SM,1,28,28,28,BALIVE
-260,QUAN,queen triggerfish,GM,2,1,1,1,BALIVE
-261,QUAN,red hind,SM,1,22,22,22,SERRGU
-262,QUAL,red hind,SM,1,NA,NA,NA,SERRGU
-263,QUAN,red hind,MC,1,35,35,35,SERRGU
-264,QUAN,red hind,EG,1,35,35,35,SERRGU
-265,QUAN,red hind,EG,1,40,40,40,SERRGU
-266,QUAN,red hind,MC,1,25,25,25,SERRGU
-267,QUAL,red hind,HK,,NA,NA,NA,SERRGU
-268,QUAN,red hind,HK,1,17,17,17,SERRGU
-269,QUAN,red hind,EG,1,30,30,30,SERRGU
-270,QUAN,red hind,HK,1,55,55,55,SERRGU
-271,QUAN,red hind,HK,1,48,48,48,SERRGU
-272,QUAN,red hind,HK,1,40,40,40,SERRGU
-273,QUAN,red hind,HK,1,23,23,23,SERRGU
-274,QUAN,red hind,MC,1,25,25,25,SERRGU
-275,QUAL,red hind,HK,,NA,NA,NA,SERRGU
-276,QUAN,red hind,MC,1,13,13,13,SERRGU
-277,QUAN,red hind,DG,1,31,31,31,SERRGU
-278,QUAN,red hind,DG,1,23,23,23,SERRGU
-279,QUAN,red hind,SM,1,32,32,32,SERRGU
-280,QUAN,red hind,SM,1,22,22,22,SERRGU
-281,QUAN,red hind,SM,1,26,26,26,SERRGU
-282,QUAN,red hind,SM,1,24,24,24,SERRGU
-283,QUAN,red hind,SM,1,22,22,22,SERRGU
-284,QUAN,red hind,SM,1,20,20,20,SERRGU
-285,QUAN,red hind,SM,1,12,12,12,SERRGU
-286,QUAN,red hind,SM,1,15,15,15,SERRGU
-287,QUAN,red hind,SM,1,38,38,38,SERRGU
-288,QUAN,squirrelfish,SM,1,30,30,30,HOLOAD
-289,QUAN,squirrelfish,GM,4,1,2,1.5,HOLOAD
-290,QUAN,squirrelfish,GM,1,1,1,1,HOLOAD
-291,QUAN,squirrelfish,GM,2,1,1,1,HOLOAD
-292,QUAN,squirrelfish,GM,1,1,1,1,HOLOAD
-293,QUAN,squirrelfish,GM,1,1,1,1,HOLOAD
-294,QUAN,squirrelfish,GM,2,1,1,1,HOLOAD
-295,QUAN,squirrelfish,GM,1,1,1,1,HOLOAD
-296,QUAN,squirrelfish,HK,1,14,14,14,HOLOAD
-297,QUAN,squirrelfish,MC,1,18,18,18,HOLOAD
-298,QUAN,squirrelfish,MC,1,23,23,23,HOLOAD
-299,QUAL,squirrelfish,MC,1,20,20,20,HOLOAD
-300,QUAL,squirrelfish,HK,,NA,NA,NA,HOLOAD
-301,QUAN,squirrelfish,HK,1,19,19,19,HOLOAD
-302,QUAN,squirrelfish,HK,1,19,19,19,HOLOAD
-303,QUAN,squirrelfish,HK,1,18,18,18,HOLOAD
-304,QUAN,squirrelfish,HK,1,18,18,18,HOLOAD
-305,QUAN,squirrelfish,GM,3,1,2,1.5,HOLOAD
-306,QUAN,squirrelfish,MC,1,15,15,15,HOLOAD
-307,QUAN,squirrelfish,MC,4,25,25,25,HOLOAD
-308,QUAN,squirrelfish,HK,1,20,20,20,HOLOAD
-309,QUAN,squirrelfish,HK,1,22,22,22,HOLOAD
-310,QUAN,squirrelfish,MC,2,25,25,25,HOLOAD
-311,QUAN,squirrelfish,MC,1,25,25,25,HOLOAD
-312,QUAN,squirrelfish,HK,1,22,22,22,HOLOAD
-313,QUAN,squirrelfish,HK,1,21,21,21,HOLOAD
-314,QUAN,squirrelfish,DG,1,16,16,16,HOLOAD
-315,QUAN,squirrelfish,GM,2,NA,NA,NA,HOLOAD
-316,QUAN,squirrelfish,EG,1,28,28,28,HOLOAD
-317,QUAN,squirrelfish,EG,1,30,30,30,HOLOAD
-318,QUAN,squirrelfish,EG,1,30,30,30,HOLOAD
-319,QUAN,squirrelfish,MC,1,25,25,25,HOLOAD
-320,QUAN,squirrelfish,MC,2,20,20,20,HOLOAD
-321,QUAN,squirrelfish,DG,1,19,19,19,HOLOAD
-322,QUAN,squirrelfish,DG,1,25,25,25,HOLOAD
-323,QUAN,squirrelfish,DG,1,25,25,25,HOLOAD
-324,QUAN,squirrelfish,DG,1,29,29,29,HOLOAD
-325,QUAN,squirrelfish,DG,1,27,27,27,HOLOAD
-326,QUAN,squirrelfish,GM,4,1,1,1,HOLOAD
-327,QUAN,squirrelfish,MC,1,28,28,28,HOLOAD
-328,QUAN,squirrelfish,MC,2,23,23,23,HOLOAD
-329,QUAN,squirrelfish,GM,1,1,1,1,HOLOAD
-330,QUAN,squirrelfish,MC,1,23,23,23,HOLOAD
-331,QUAN,squirrelfish,EA,1,25,25,25,HOLOAD
-332,QUAN,squirrelfish,DG,1,30,30,30,HOLOAD
-333,QUAN,squirrelfish,DG,1,34,34,34,HOLOAD
-334,QUAN,squirrelfish,DG,1,28,28,28,HOLOAD
-335,QUAN,squirrelfish,DG,1,30,30,30,HOLOAD
-336,QUAN,squirrelfish,DG,1,20,20,20,HOLOAD
-337,QUAN,squirrelfish,DG,1,25,25,25,HOLOAD
-338,QUAN,squirrelfish,SM,1,14,14,14,HOLOAD
-339,QUAN,squirrelfish,SM,1,20,20,20,HOLOAD
-340,QUAN,mahogany snapper,SM,2,18,18,18,LUTJMA
-341,QUAN,mahogany snapper,SM,1,20,20,20,LUTJMA
-342,QUAN,mahogany snapper,SM,1,32,32,32,LUTJMA
-343,QUAN,mahogany snapper,SM,2,18,18,18,LUTJMA
-344,QUAL,mahogany snapper,SM,1,NA,NA,NA,LUTJMA
-345,QUAN,mahogany snapper,SM,1,18,18,18,LUTJMA
-346,QUAN,mahogany snapper,SM,1,20,20,20,LUTJMA
-347,QUAN,mahogany snapper,MC,13,40,40,40,LUTJMA
-348,QUAL,mahogany snapper,MC,1,18,18,18,LUTJMA
-349,QUAL,mahogany snapper,MC,1,25,25,25,LUTJMA
-350,QUAL,mahogany snapper,MC,1,25,25,25,LUTJMA
-351,QUAL,mahogany snapper,MC,1,15,15,15,LUTJMA
-352,QUAN,mahogany snapper,MC,27,12,15,13.5,LUTJMA
-353,QUAN,mahogany snapper,MC,50,10,20,15,LUTJMA
-354,QUAL,mahogany snapper,HK,,NA,NA,NA,LUTJMA
-355,QUAN,mahogany snapper,HK,2,17,17,17,LUTJMA
-356,QUAN,mahogany snapper,HK,1,13,13,13,LUTJMA
-357,QUAN,mahogany snapper,GM,1,1,1,1,LUTJMA
-358,QUAN,mahogany snapper,HK,1,16,16,16,LUTJMA
-359,QUAN,mahogany snapper,HK,1,15,15,15,LUTJMA
-360,QUAN,mahogany snapper,DG,1,19,19,19,LUTJMA
-361,QUAN,mahogany snapper,DG,14,19,24,21.5,LUTJMA
-362,QUAN,mahogany snapper,MC,3,26,28,27,LUTJMA
-363,QUAN,mahogany snapper,HK,1,18,18,18,LUTJMA
-364,QUAN,mahogany snapper,DG,1,13,13,13,LUTJMA
-365,QUAN,mahogany snapper,DG,1,9,9,9,LUTJMA
-366,QUAN,mahogany snapper,DG,1,21,21,21,LUTJMA
-367,QUAN,mahogany snapper,EG,10,15,18,16.5,LUTJMA
-368,QUAN,mahogany snapper,EG,1,10,10,10,LUTJMA
-369,QUAN,mahogany snapper,MC,1,28,28,28,LUTJMA
-370,QUAN,mahogany snapper,DG,1,23,23,23,LUTJMA
-371,QUAN,mahogany snapper,DG,2,22,22,22,LUTJMA
-372,QUAN,mahogany snapper,DG,1,27,27,27,LUTJMA
-373,QUAN,mahogany snapper,DG,14,11,15,13,LUTJMA
-374,QUAN,mahogany snapper,GM,4,NA,NA,NA,LUTJMA
-375,QUAN,mahogany snapper,MC,2,15,20,17.5,LUTJMA
-376,QUAN,mahogany snapper,DG,1,21,21,21,LUTJMA
-377,QUAN,mahogany snapper,DG,1,25,25,25,LUTJMA
-378,QUAN,mahogany snapper,DG,1,23,23,23,LUTJMA
-379,QUAN,mahogany snapper,DG,1,24,24,24,LUTJMA
-380,QUAN,mahogany snapper,DG,1,28,28,28,LUTJMA
-381,QUAL,mahogany snapper,SM,1,NA,NA,NA,LUTJMA
-382,QUAL,mahogany snapper,SM,,NA,NA,NA,LUTJMA
-383,QUAN,mahogany snapper,SM,1,18,18,18,LUTJMA
-384,QUAN,lane snapper,GM,1,1,1,1,LUTJSY
-385,QUAN,lane snapper,MC,1,15,15,15,LUTJSY
-386,QUAN,lane snapper,MC,1,15,15,15,LUTJSY
-387,QUAL,lane snapper,HK,,NA,NA,NA,LUTJSY
-388,QUAN,lane snapper,GM,4,1,3,2,LUTJSY
-389,QUAN,lane snapper,DG,1,24,24,24,LUTJSY
-390,QUAN,lane snapper,DG,1,24,24,24,LUTJSY
-391,QUAN,lane snapper,SM,1,20,20,20,LUTJSY
-,,,,,,,,
+,DATE,EXPEDITION,STATION.N1.4,DEPTH_M,TRANSECT.LENGTH,TIME.START,TIME.END,DURAT,DIVER,BUDDIE,DATATYPE,SPECIES_CODE,FAMILY,GENUS,SPECIES,COMMON_NAME,NUMBER,MIN,MAX,AVG,COMMENT,a,b,BIOMASS..KG.,Species.ID
+10,12-Oct-15,MONTSERRAT,MP-017,10,30,1045,1110,35,GM,AE,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,1,1,1,,0.0923,2.744,0.0000923,ACANCH
+11,12-Oct-15,MONTSERRAT,MA-028,10,30,1125,1145,20,GM,AE,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,1,1,1,,0.0923,2.744,0.0000923,ACANCH
+12,13-Oct-15,MONTSERRAT,MSA-171,15,30,205,249,44,GM,AE,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,2,1,1,1,,0.0923,2.744,0.0001846,ACANCH
+77,12-Oct-15,MONTSERRAT,MA-069,20,30,1010,1035,25,GM,AE,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,1,1,1,,0.0286,3,0.0000286,ACANCO
+80,12-Oct-15,MONTSERRAT,MP-103,5,30,1415,1440,25,GM,AE,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,1,1,1,,0.0286,3,0.0000286,ACANCO
+260,25-Oct-15,MONTSERRAT,1240,21,30,1105,1137,32,GM,EA,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,2,1,1,1,,0.0864,2.784,0.0001728,BALIVE
+290,12-Oct-15,MONTSERRAT,MA-028,10,30,1125,1145,20,GM,AE,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,1,1,1,,0.0216,3,0.0000216,HOLOAD
+291,12-Oct-15,MONTSERRAT,MP-103,5,30,1415,1440,25,GM,AE,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,2,1,1,1,,0.0216,3,0.0000432,HOLOAD
+292,12-Oct-15,MONTSERRAT,MP-054,20,30,1500,1533,33,GM,AE,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,1,1,1,,0.0216,3,0.0000216,HOLOAD
+293,13-Oct-15,MONTSERRAT,MSA-076,6,30,1052,1116,24,GM,AE,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,1,1,1,,0.0216,3,0.0000216,HOLOAD
+294,13-Oct-15,MONTSERRAT,1091,15,30,1147,1213,26,GM,AE,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,2,1,1,1,,0.0216,3,0.0000432,HOLOAD
+295,13-Oct-15,MONTSERRAT,MSA-129,17,30,1503,1530,27,GM,AE,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,1,1,1,,0.0216,3,0.0000216,HOLOAD
+326,19-Oct-15,MONTSERRAT,1184,15,30,1023,1103,40,GM,AE,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,4,1,1,1,,0.0216,3,0.0000864,HOLOAD
+329,20-Oct-15,MONTSERRAT,164,20.3,30,953,1029,NA,GM,AE,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,1,1,1,,0.0216,3,0.0000216,HOLOAD
+357,16-Oct-15,MONTSERRAT,MSA-011,8,30,,,NA,GM,AE,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,1,1,1,,0.0429,2.719,0.0000429,LUTJMA
+384,13-Oct-15,MONTSERRAT,MSA-076,6,30,1052,1116,24,GM,AE,QUAN,LUSY,Lutjanidae,Lutjanus,Lutjanus synagris,lane snapper,1,1,1,1,,0.018,2.981,0.000018,LUTJSY
+289,12-Oct-15,MONTSERRAT,MP-017,10,30,1045,1110,35,GM,AE,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,4,1,2,1.5,,0.0216,3,0.0002916,HOLOAD
+305,16-Oct-15,MONTSERRAT,MSA-011,8,30,,,NA,GM,AE,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,3,1,2,1.5,,0.0216,3,0.0002187,HOLOAD
+79,12-Oct-15,MONTSERRAT,MA-028,10,30,1125,1145,20,GM,AE,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,4,2,2,2,,0.0286,3,0.0009152,ACANCO
+153,16-Oct-15,MONTSERRAT,SCB01,6,30,947,1003,16,HK,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,2,2,2,,0.0286,3,0.0002288,ACANCO
+239,25-Oct-15,MONTSERRAT,1242,11.2,30,1215,1245,34,GM,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,5,1,3,2,,0.0286,3,0.001144,ACANCO
+388,20-Oct-15,MONTSERRAT,175,20,30,1504,1534,NA,GM,AE,QUAN,LUSY,Lutjanidae,Lutjanus,Lutjanus synagris,lane snapper,4,1,3,2,,0.018,2.981,0.000568464,LUTJSY
+180,18-Oct-15,MONTSERRAT,S02,7,30,1018,1033,15,HK,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,3,3,3,,0.0286,3,0.0007722,ACANCO
+78,12-Oct-15,MONTSERRAT,MP-017,10,30,1045,1110,35,GM,AE,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,8,2,4,3,,0.0286,3,0.0061776,ACANCO
+160,16-Oct-15,MONTSERRAT,MSA-011,8,30,,,NA,GM,AE,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,16,1,5,3,,0.0286,3,0.0123552,ACANCO
+107,13-Oct-15,MONTSERRAT,MSA-076,6,30,1052,1116,24,GM,AE,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,7,3,4,3.5,,0.0286,3,0.008583575,ACANCO
+159,16-Oct-15,MONTSERRAT,MSA-063,20,30,1050,1139,49,GM,AE,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,21,2,5,3.5,,0.0286,3,0.025750725,ACANCO
+99,13-Oct-15,MONTSERRAT,MSA021,5,30,1317,1334,17,HK,MB,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,4,4,4,,0.0286,3,0.0036608,ACANCO
+231,17-Oct-15,MONTSERRAT,1134,10,30,11:25,11:50,14,SM,AE,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,4,4,4,,0.0286,3,0.0018304,ACANCO
+50,13-Oct-15,MONTSERRAT,MSA118,5,30,1445,1459,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,5,5,5,,0.0286,3,0.003575,ACANCO
+120,14-Oct-15,MONTSERRAT,MSA015,15,30,214,230,16,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,5,5,5,,0.0286,3,0.003575,ACANCO
+21,16-Oct-15,MONTSERRAT,MSA-011,8,30,,,NA,GM,AE,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,13,4,7,5.5,,0.0923,2.744,0.129032845,ACANCH
+149,16-Oct-15,MONTSERRAT,MSA169,10,30,955,910,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,6,6,6,,0.0286,3,0.0061776,ACANCO
+232,17-Oct-15,MONTSERRAT,1134,10,30,11:25,11:50,14,SM,AE,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,6,6,6,,0.0286,3,0.0061776,ACANCO
+165,17-Oct-15,MONTSERRAT,BB02,5,30,1453,1508,15,HK,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,4,6,8,7,,0.0286,3,0.0392392,ACANCO
+46,12-Oct-15,MONTSERRAT,MA047N,20,30,1359,1414,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,8,8,8,,0.0286,3,0.0146432,ACANCO
+67,12-Oct-15,MONTSERRAT,WPT1003N,20,30,1445,1500,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,8,8,8,,0.0286,3,0.0146432,ACANCO
+161,17-Oct-15,MONTSERRAT,MSA011,3.9,30,917,932,15,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,8,8,8,,0.0286,3,0.0146432,ACANCO
+365,17-Oct-15,MONTSERRAT,MA063,20,30,1143,1158,15,DG,DH,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,9,9,9,,0.0429,2.719,0.016867188,LUTJMA
+38,25-Oct-15,MONTSERRAT,1235,20.5,30,8:37,9:13,14,SM,AC,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,10,10,10,,0.0923,2.744,0.051191953,ACANCH
+61,12-Oct-15,MONTSERRAT,MP049S,5,30,1230,1245,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,10,10,10,,0.0286,3,0.0286,ACANCO
+64,12-Oct-15,MONTSERRAT,MP049S,5,30,1230,1245,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,10,10,10,,0.0286,3,0.0286,ACANCO
+146,16-Oct-15,MONTSERRAT,WPT0028,24,30,814,826,12,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,10,10,10,,0.0286,3,0.0286,ACANCO
+368,19-Oct-15,MONTSERRAT,WPT0056,5,30,1118,1132,14,EG,EA,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,10,10,10,,0.0429,2.719,0.022462459,LUTJMA
+52,12-Oct-15,MONTSERRAT,MA070N,5,30,1151,1207,16,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,12,12,12,,0.0286,3,0.0988416,ACANCO
+62,12-Oct-15,MONTSERRAT,MP049S,5,30,1230,1245,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,12,12,12,,0.0286,3,0.0494208,ACANCO
+100,13-Oct-15,MONTSERRAT,MSA124,5,30,1146,1202,16,HK,MB,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,12,12,12,,0.0286,3,0.0494208,ACANCO
+134,15-Oct-15,MONTSERRAT,MSA029,11.1,30,1103,1118,15,MC,RM,QUAL,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,12,12,12,,0.0286,3,0.0494208,ACANCO
+135,15-Oct-15,MONTSERRAT,MSA154,4,23,109,126,17,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,12,12,12,,0.0286,3,0.0494208,ACANCO
+222,13-Oct-15,MONTSERRAT,MSA-174,5,30,10:00,10:26,7,SM,AC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,12,12,12,,0.0286,3,0.0494208,ACANCO
+285,20-Oct-15,MONTSERRAT,171,20,30,,,15,SM,DH,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,12,12,12,,0.0084,3.1,0.018609776,SERRGU
+102,15-Oct-15,MONTSERRAT,WPT0020,20,30,823,838,15,DG,EG,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,13,13,13,,0.0286,3,0.1256684,ACANCO
+164,17-Oct-15,MONTSERRAT,MSA103b,5.1,30,1047,1104,17,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,13,13,13,,0.0286,3,0.0628342,ACANCO
+204,20-Oct-15,MONTSERRAT,Northwest Bluff Hobo,9.3,30,1056,1111,15,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,13,13,13,,0.0286,3,0.0628342,ACANCO
+276,20-Oct-15,MONTSERRAT,M8Y (Hobo),9.1,30,153,208,15,MC,RM,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,13,13,13,,0.0084,3.1,0.02385084,SERRGU
+356,15-Oct-15,MONTSERRAT,MSA149,7,25,1208,1219,11,HK,MB,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,13,13,13,,0.0429,2.719,0.045842603,LUTJMA
+364,17-Oct-15,MONTSERRAT,MA015,20,30,815,829,14,DG,DH,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,13,13,13,,0.0429,2.719,0.045842603,LUTJMA
+373,19-Oct-15,MONTSERRAT,WPT0053,5,30,912,926,15,DG,DH,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,14,11,15,13,,0.0429,2.719,0.641796439,LUTJMA
+60,12-Oct-15,MONTSERRAT,MP049S,5,30,1230,1245,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,10,12,15,13.5,,0.0286,3,0.70366725,ACANCO
+117,14-Oct-15,MONTSERRAT,MSA074,6,30,1218,1232,14,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,31,12,15,13.5,,0.0286,3,2.181368475,ACANCO
+352,15-Oct-15,MONTSERRAT,MSA154,4,23,109,126,17,MC,RM,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,27,12,15,13.5,,0.0429,2.719,1.371508719,LUTJMA
+51,13-Oct-15,MONTSERRAT,MSA118,5,30,1445,1459,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,14,14,14,,0.0286,3,0.0784784,ACANCO
+55,12-Oct-15,MONTSERRAT,MA070N,5,30,1151,1207,16,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,14,14,14,,0.0286,3,0.0784784,ACANCO
+103,15-Oct-15,MONTSERRAT,WPT0020,20,30,823,838,15,DG,EG,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,14,14,14,,0.0286,3,0.0784784,ACANCO
+125,15-Oct-15,MONTSERRAT,MSA151,20,30,1033,1048,15,DG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,14,14,14,,0.0286,3,0.0784784,ACANCO
+223,13-Oct-15,MONTSERRAT,MSA-174,5,30,10:00,10:26,7,SM,AC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,14,14,14,,0.0286,3,0.1569568,ACANCO
+296,14-Oct-15,MONTSERRAT,MSA137,9,30,1135,1150,15,HK,MB,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,14,14,14,,0.0216,3,0.0592704,HOLOAD
+338,19-Oct-15,MONTSERRAT,MP-114,7.5,30,9:35,10:14,15,SM,AC,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,14,14,14,,0.0216,3,0.0592704,HOLOAD
+98,13-Oct-15,MONTSERRAT,MSA127,8,30,206,221,15,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,19,13,15,14,,0.0286,3,1.4910896,ACANCO
+124,14-Oct-15,MONTSERRAT,MSA130,8,30,1007,1023,15,HK,MB,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,7,13,15,14,,0.0286,3,0.5493488,ACANCO
+122,14-Oct-15,MONTSERRAT,MSA097,9,30,1323,1337,14,HK,MB,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,6,12,16,14,,0.0286,3,0.4708704,ACANCO
+56,12-Oct-15,MONTSERRAT,MA070N,5,30,1151,1207,16,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,15,15,15,,0.0286,3,0.096525,ACANCO
+59,12-Oct-15,MONTSERRAT,MP049S,5,30,1230,1245,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,6,15,15,15,,0.0286,3,0.57915,ACANCO
+71,12-Oct-15,MONTSERRAT,MP062,9.2,30,1204,1220,16,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,3,15,15,15,,0.0286,3,0.289575,ACANCO
+74,14-Oct-15,MONTSERRAT,MSA037,20,30,1226,1241,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,15,15,15,,0.0286,3,0.096525,ACANCO
+101,13-Oct-15,MONTSERRAT,MSA124,5,30,1146,1202,16,HK,MB,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,15,15,15,,0.0286,3,0.096525,ACANCO
+104,15-Oct-15,MONTSERRAT,WPT0020,20,30,823,838,15,DG,EG,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,15,15,15,,0.0286,3,0.19305,ACANCO
+115,14-Oct-15,MONTSERRAT,MSA147,6.2,30,1055,1112,17,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,10,15,15,15,,0.0286,3,0.96525,ACANCO
+126,15-Oct-15,MONTSERRAT,MSA151,20,30,1033,1048,15,DG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,15,15,15,,0.0286,3,0.096525,ACANCO
+158,21-Oct-15,MONTSERRAT,WPT0209,10,30,1355,1410,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,15,15,15,,0.0286,3,0.096525,ACANCO
+182,18-Oct-15,MONTSERRAT,S02,7,30,1018,1033,15,HK,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,15,15,15,,0.0286,3,0.096525,ACANCO
+193,19-Oct-15,MONTSERRAT,FP11,16.7,30,1222,1239,17,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,15,15,15,,0.0286,3,0.096525,ACANCO
+224,14-Oct-15,MONTSERRAT,1107,20,30,13:58,14:29,14,SM,AC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,15,15,15,,0.0286,3,0.096525,ACANCO
+227,16-Oct-15,MONTSERRAT,MSA-158,5,30,10:03,10:42,14,SM,AC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,15,15,15,,0.0286,3,0.19305,ACANCO
+234,19-Oct-15,MONTSERRAT,MP-114,7.5,30,9:35,10:14,15,SM,AC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,15,15,15,,0.0286,3,0.19305,ACANCO
+286,20-Oct-15,MONTSERRAT,171,20,30,,,15,SM,DH,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,15,15,15,,0.0084,3.1,0.037167401,SERRGU
+306,17-Oct-15,MONTSERRAT,MSA011,3.9,30,917,932,15,MC,RM,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,15,15,15,,0.0216,3,0.0729,HOLOAD
+351,15-Oct-15,MONTSERRAT,MSA029,11.1,30,1103,1118,15,MC,RM,QUAL,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,15,15,15,,0.0429,2.719,0.067647138,LUTJMA
+359,17-Oct-15,MONTSERRAT,MSA094,7,30,832,846,14,HK,DH,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,15,15,15,,0.0429,2.719,0.067647138,LUTJMA
+385,15-Oct-15,MONTSERRAT,MSA154,4,23,109,126,17,MC,RM,QUAN,LUSY,Lutjanidae,Lutjanus,Lutjanus synagris,lane snapper,1,15,15,15,,0.018,2.981,0.057703286,LUTJSY
+386,17-Oct-15,MONTSERRAT,MSA183,2.3,30,1224,1239,15,MC,RM,QUAN,LUSY,Lutjanidae,Lutjanus,Lutjanus synagris,lane snapper,1,15,15,15,,0.018,2.981,0.057703286,LUTJSY
+162,17-Oct-15,MONTSERRAT,MSA011,3.9,30,917,932,15,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,52,12,18,15,,0.0286,3,5.0193,ACANCO
+353,15-Oct-15,MONTSERRAT,MSA154,4,23,109,126,17,MC,RM,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,50,10,20,15,,0.0429,2.719,3.382356887,LUTJMA
+217,24-Oct-15,MONTSERRAT,WPT0249,10,30,11:45,12:00,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,0,30,15,,0.0286,3,0.096525,ACANCO
+154,19-Oct-15,MONTSERRAT,WPT0053,5,30,912,926,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,60,14,17,15.5,,0.0286,3,6.3901695,ACANCO
+44,12-Oct-15,MONTSERRAT,MP087,5,30,1309,1324,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,16,16,16,,0.0286,3,0.1171456,ACANCO
+48,13-Oct-15,MONTSERRAT,MSA080,10,30,1323,1319,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,16,16,16,,0.0286,3,0.1171456,ACANCO
+75,14-Oct-15,MONTSERRAT,MSA037,20,30,1226,1241,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,16,16,16,,0.0286,3,0.1171456,ACANCO
+105,15-Oct-15,MONTSERRAT,WPT0020,20,30,823,838,15,DG,EG,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,16,16,16,,0.0286,3,0.1171456,ACANCO
+127,15-Oct-15,MONTSERRAT,MSA151,20,30,1033,1048,15,DG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,16,16,16,,0.0286,3,0.2342912,ACANCO
+137,16-Oct-15,MONTSERRAT,WPT0029,24,30,901,915,15,DG,MC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,16,16,16,,0.0286,3,0.1171456,ACANCO
+140,16-Oct-15,MONTSERRAT,MSA054,10,30,1313,1328,15,DG,MC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,16,16,16,,0.0286,3,0.1171456,ACANCO
+155,19-Oct-15,MONTSERRAT,WPT0057,20,30,1207,1222,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,16,16,16,,0.0286,3,0.1171456,ACANCO
+183,24-Oct-15,MONTSERRAT,WPT0248,20,30,1000,1015,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,16,16,16,,0.0286,3,0.1171456,ACANCO
+226,16-Oct-15,MONTSERRAT,MSA-150,10,30,9:17,9:47,13,SM,AC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,16,16,16,,0.0286,3,0.2342912,ACANCO
+235,20-Oct-15,MONTSERRAT,168,20,30,10:50,11:25,15,SM,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,16,16,16,,0.0286,3,0.1171456,ACANCO
+237,24-Oct-15,MONTSERRAT,1230,17,30,12:36,13:51,14,SM,AC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,4,16,16,16,,0.0286,3,0.4685824,ACANCO
+314,16-Oct-15,MONTSERRAT,MSA054,10,30,1313,1328,15,DG,MC,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,16,16,16,,0.0216,3,0.0884736,HOLOAD
+358,17-Oct-15,MONTSERRAT,MSA094,7,30,832,846,14,HK,DH,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,16,16,16,,0.0429,2.719,0.080623106,LUTJMA
+123,14-Oct-15,MONTSERRAT,MSA097,9,30,1323,1337,14,HK,MB,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,4,15,17,16,,0.0286,3,0.4685824,ACANCO
+241,24-Oct-15,MONTSERRAT,1233,10,30,13:59,14:14,15,AE,JC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,5,15,17,16,,0.0286,3,0.585728,ACANCO
+58,12-Oct-15,MONTSERRAT,MP049S,5,30,1230,1245,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,4,15,18,16.5,,0.0286,3,0.5138991,ACANCO
+95,13-Oct-15,MONTSERRAT,MSA068,7.4,30,932,948,16,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,5,15,18,16.5,,0.0286,3,0.642373875,ACANCO
+175,18-Oct-15,MONTSERRAT,SO3,13,30,1104,1121,17,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,30,15,18,16.5,,0.0286,3,3.85424325,ACANCO
+178,18-Oct-15,MONTSERRAT,S01,14,30,945,1002,17,HK,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,4,15,18,16.5,,0.0286,3,0.5138991,ACANCO
+367,19-Oct-15,MONTSERRAT,WPT0054,20,30,956,1011,15,EG,EA,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,10,15,18,16.5,,0.0429,2.719,0.876589242,LUTJMA
+174,18-Oct-15,MONTSERRAT,MSA162,12.4,30,855,912,17,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,21,13,20,16.5,,0.0286,3,2.697970275,ACANCO
+1,12-Oct-15,MONTSERRAT,MA047N,20,30,1359,1414,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,17,17,17,,0.0191,3.08,0.117710728,ACANCH
+106,15-Oct-15,MONTSERRAT,WPT0020,20,30,823,838,15,DG,EG,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,17,17,17,,0.0286,3,0.1405118,ACANCO
+136,15-Oct-15,MONTSERRAT,MSA151,20,30,1033,1048,15,DG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,17,17,17,,0.0286,3,0.2810236,ACANCO
+138,16-Oct-15,MONTSERRAT,WPT0029,24,30,901,915,15,DG,MC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,17,17,17,,0.0286,3,0.1405118,ACANCO
+156,19-Oct-15,MONTSERRAT,WPT0057,20,30,1207,1222,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,17,17,17,,0.0286,3,0.1405118,ACANCO
+176,18-Oct-15,MONTSERRAT,S01,14,30,945,1002,17,HK,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,17,17,17,,0.0286,3,0.1405118,ACANCO
+179,18-Oct-15,MONTSERRAT,S02,7,30,1018,1033,15,HK,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,17,17,17,,0.0286,3,0.1405118,ACANCO
+181,18-Oct-15,MONTSERRAT,S02,7,30,1018,1033,15,HK,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,17,17,17,,0.0286,3,0.2810236,ACANCO
+184,24-Oct-15,MONTSERRAT,WPT0248,20,30,1000,1015,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,17,17,17,,0.0286,3,0.2810236,ACANCO
+197,25-Oct-15,MONTSERRAT,WPT0250,10,30,8:19,8:34,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,17,17,17,,0.0286,3,0.1405118,ACANCO
+252,19-Oct-15,MONTSERRAT,FP03,21,30,905,920,15,HK,DH,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,17,17,17,,0.0864,2.784,0.230188456,BALIVE
+268,15-Oct-15,MONTSERRAT,MSA149,7,25,1208,1219,11,HK,MB,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,17,17,17,,0.0084,3.1,0.05478617,SERRGU
+355,15-Oct-15,MONTSERRAT,MSA149,7,25,1208,1219,11,HK,MB,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,2,17,17,17,,0.0429,2.719,0.190141933,LUTJMA
+202,20-Oct-15,MONTSERRAT,Pinnacle Hobo,11.5,30,822,838,16,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,16,18,17,,0.0286,3,0.1405118,ACANCO
+195,24-Oct-15,MONTSERRAT,WPT0248,10,30,1020,1035,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,24,15,19,17,,0.0286,3,3.3722832,ACANCO
+240,24-Oct-15,MONTSERRAT,1233,10,30,13:59,14:14,15,AE,JC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,10,14,20,17,,0.0286,3,1.405118,ACANCO
+206,20-Oct-15,MONTSERRAT,Little Redonda,10,30,935,951,16,HK,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,9,16,19,17.5,,0.0286,3,1.379503125,ACANCO
+108,13-Oct-15,MONTSERRAT,MSA051,7.6,30,1059,1115,16,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,4,15,20,17.5,,0.0286,3,0.6131125,ACANCO
+119,14-Oct-15,MONTSERRAT,MSA015,15,30,214,230,16,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,9,15,20,17.5,,0.0286,3,1.379503125,ACANCO
+205,20-Oct-15,MONTSERRAT,Northwest Bluff Hobo,9.3,30,1056,1111,15,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,4,15,20,17.5,,0.0286,3,0.6131125,ACANCO
+375,20-Oct-15,MONTSERRAT,Pinnacle Hobo,11.5,30,822,838,16,MC,RM,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,2,15,20,17.5,,0.0429,2.719,0.205734792,LUTJMA
+13,14-Oct-15,MONTSERRAT,MSA147,6.2,30,1055,1112,17,MC,RM,QUAL,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,2,18,18,18,,0.0923,2.744,0.513688036,ACANCH
+22,17-Oct-15,MONTSERRAT,MSA011,3.9,30,917,932,15,MC,RM,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,18,18,18,,0.0923,2.744,0.256844018,ACANCH
+23,17-Oct-15,MONTSERRAT,MSA094,7,30,832,846,14,HK,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,18,18,18,,0.0923,2.744,0.256844018,ACANCH
+36,16-Oct-15,MONTSERRAT,MSA-158,5,30,10:03,10:42,14,SM,AC,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,18,18,18,,0.0923,2.744,0.256844018,ACANCH
+39,25-Oct-15,MONTSERRAT,1238,6.5,30,9:41,10:14,15,SM,AC,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,18,18,18,,0.0923,2.744,0.256844018,ACANCH
+45,12-Oct-15,MONTSERRAT,MP087,5,30,1309,1324,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,18,18,18,,0.0286,3,0.1667952,ACANCO
+63,12-Oct-15,MONTSERRAT,MP049S,5,30,1230,1245,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,18,18,18,,0.0286,3,0.3335904,ACANCO
+76,14-Oct-15,MONTSERRAT,MSA037,20,30,1226,1241,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,18,18,18,,0.0286,3,0.1667952,ACANCO
+113,14-Oct-15,MONTSERRAT,MSA016,20,30,1329,1344,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,18,18,18,,0.0286,3,0.1667952,ACANCO
+139,16-Oct-15,MONTSERRAT,WPT0029,24,30,901,915,15,DG,MC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,18,18,18,,0.0286,3,0.1667952,ACANCO
+141,16-Oct-15,MONTSERRAT,MSA054,10,30,1313,1328,15,DG,MC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,18,18,18,,0.0286,3,0.1667952,ACANCO
+147,16-Oct-15,MONTSERRAT,WPT0028,24,30,814,826,12,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,18,18,18,,0.0286,3,0.1667952,ACANCO
+152,16-Oct-15,MONTSERRAT,SBC03,3,30,1145,1201,16,HK,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,18,18,18,,0.0286,3,0.1667952,ACANCO
+167,17-Oct-15,MONTSERRAT,MSA094,7,30,832,846,14,HK,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,18,18,18,,0.0286,3,0.3335904,ACANCO
+194,19-Oct-15,MONTSERRAT,FP13,9.1,30,241,256,15,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,4,18,18,18,,0.0286,3,0.6671808,ACANCO
+198,25-Oct-15,MONTSERRAT,WPT0250,10,30,8:19,8:34,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,18,18,18,,0.0286,3,0.3335904,ACANCO
+208,21-Oct-15,MONTSERRAT,Woodlands MOSA,5,30,1033,1045,12,HK,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,18,18,18,,0.0286,3,0.1667952,ACANCO
+225,16-Oct-15,MONTSERRAT,MSA-039,20,26.9,8:22,9:00,14,SM,AC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,4,18,18,18,,0.0286,3,0.6671808,ACANCO
+233,18-Oct-15,MONTSERRAT,STEPH,20,30,,,15,SM,AC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,18,18,18,,0.0286,3,0.1667952,ACANCO
+238,25-Oct-15,MONTSERRAT,1238,6.5,30,9:41,10:14,15,SM,AC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,3,18,18,18,,0.0286,3,0.5003856,ACANCO
+297,15-Oct-15,MONTSERRAT,MSA009,13.3,30,821,835,14,MC,RM,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,18,18,18,,0.0216,3,0.1259712,HOLOAD
+303,16-Oct-15,MONTSERRAT,MSA221,24,30,823,834,11,HK,RM,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,18,18,18,,0.0216,3,0.1259712,HOLOAD
+304,16-Oct-15,MONTSERRAT,SCB02,6,30,1048,1104,16,HK,RM,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,18,18,18,,0.0216,3,0.1259712,HOLOAD
+340,13-Oct-15,MONTSERRAT,MSA-181,20,30,8:46,9:23,14,SM,AC,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,2,18,18,18,,0.0429,2.719,0.222112617,LUTJMA
+343,16-Oct-15,MONTSERRAT,MSA-150,10,30,9:17,9:47,13,SM,AC,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,2,18,18,18,,0.0429,2.719,0.222112617,LUTJMA
+345,17-Oct-15,MONTSERRAT,1133,20,30,10:25,11:05,15,SM,AE,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,18,18,18,,0.0429,2.719,0.111056309,LUTJMA
+348,13-Oct-15,MONTSERRAT,MSA051,7.6,30,1059,1115,16,MC,RM,QUAL,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,18,18,18,,0.0429,2.719,0.111056309,LUTJMA
+363,18-Oct-15,MONTSERRAT,S01,14,30,945,1002,17,HK,DH,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,18,18,18,,0.0429,2.719,0.111056309,LUTJMA
+383,24-Oct-15,MONTSERRAT,1230,17,30,12:36,13:51,14,SM,AC,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,18,18,18,,0.0429,2.719,0.111056309,LUTJMA
+144,19-Oct-15,MONTSERRAT,WPT0053,10,30,843,858,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,25,17,19,18,,0.0286,3,4.16988,ACANCO
+196,24-Oct-15,MONTSERRAT,WPT0248,5,30,1020,1035,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,410,15,22,18.5,,0.0286,3,74.24463475,ACANCO
+199,25-Oct-15,MONTSERRAT,WPT0250,5,30,8:46,9:01,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,13,15,22,18.5,,0.0286,3,2.354098175,ACANCO
+4,15-Oct-15,MONTSERRAT,WPT0020,20,30,823,838,15,DG,EG,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,19,19,19,,0.0923,2.744,0.297921319,ACANCH
+49,13-Oct-15,MONTSERRAT,MSA080,10,30,1323,1319,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,19,19,19,,0.0286,3,0.1961674,ACANCO
+247,15-Oct-15,MONTSERRAT,MSA151,20,30,1033,1048,15,DG,EA,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,19,19,19,,0.0864,2.784,0.313735575,BALIVE
+301,15-Oct-15,MONTSERRAT,MSA149,7,25,1208,1219,11,HK,MB,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,19,19,19,,0.0216,3,0.1481544,HOLOAD
+302,16-Oct-15,MONTSERRAT,MSA221,24,30,823,834,11,HK,RM,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,19,19,19,,0.0216,3,0.1481544,HOLOAD
+321,16-Oct-15,MONTSERRAT,MSA054,10,30,1313,1328,15,DG,MC,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,19,19,19,,0.0216,3,0.1481544,HOLOAD
+360,12-Oct-15,MONTSERRAT,MA047N,20,30,1359,1414,15,DG,DH,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,19,19,19,,0.0429,2.719,0.128643644,LUTJMA
+47,13-Oct-15,MONTSERRAT,MSA049,10,30,937,952,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,7,18,20,19,,0.0286,3,1.3731718,ACANCO
+116,14-Oct-15,MONTSERRAT,MSA147,6.2,30,1055,1112,17,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,5,18,20,19,,0.0286,3,0.980837,ACANCO
+166,17-Oct-15,MONTSERRAT,MSA094,7,30,832,846,14,HK,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,8,18,20,19,,0.0286,3,1.5693392,ACANCO
+143,18-Oct-15,MONTSERRAT,MSA011,20,30,1051,1106,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,26,17,21,19,,0.0286,3,5.1003524,ACANCO
+41,24-Oct-15,MONTSERRAT,1233,10,30,13:59,14:14,15,AE,JC,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,20,15,23,19,,0.0923,2.744,5.95842638,ACANCH
+31,19-Oct-15,MONTSERRAT,WPT0056,5,30,1118,1132,14,EG,EA,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,20,20,20,,0.0923,2.744,0.34294779,ACANCH
+40,25-Oct-15,MONTSERRAT,1238,6.5,30,9:41,10:14,15,SM,AC,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,20,20,20,,0.0923,2.744,0.34294779,ACANCH
+43,12-Oct-15,MONTSERRAT,MP-074,5,30,9:30,9:55,15,SM,AC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,20,20,20,,0.0923,2.744,0.34294779,ACANCO
+53,12-Oct-15,MONTSERRAT,MA070N,5,30,1151,1207,16,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,20,20,20,,0.0286,3,0.2288,ACANCO
+65,12-Oct-15,MONTSERRAT,WPT1003N,20,30,1445,1500,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,20,20,20,,0.0286,3,0.2288,ACANCO
+69,12-Oct-15,MONTSERRAT,WPT1003N,20,30,1445,1500,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,20,20,20,,0.0286,3,0.2288,ACANCO
+81,13-Oct-15,MONTSERRAT,WPT0008,10,30,1107,1121,14,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,20,20,20,,0.0286,3,0.2288,ACANCO
+83,13-Oct-15,MONTSERRAT,MSA040,10,30,1152,1207,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,20,20,20,,0.0286,3,0.2288,ACANCO
+88,13-Oct-15,MONTSERRAT,MSA199,5,30,1240,1254,14,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,20,20,20,,0.0286,3,0.4576,ACANCO
+114,14-Oct-15,MONTSERRAT,MSA200,15,30,908,922,14,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,20,20,20,,0.0286,3,0.2288,ACANCO
+118,14-Oct-15,MONTSERRAT,MSA074,6,30,1218,1232,14,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,4,20,20,20,,0.0286,3,0.9152,ACANCO
+131,15-Oct-15,MONTSERRAT,MP053,15,30,1342,1357,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,20,20,20,,0.0286,3,0.2288,ACANCO
+145,16-Oct-15,MONTSERRAT,WPT0028,24,30,814,826,12,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,20,20,20,,0.0286,3,0.2288,ACANCO
+148,16-Oct-15,MONTSERRAT,WPT0028,24,30,814,826,12,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,20,20,20,,0.0286,3,0.2288,ACANCO
+157,19-Oct-15,MONTSERRAT,WPT0057,20,30,1207,1222,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,20,20,20,,0.0286,3,0.2288,ACANCO
+163,17-Oct-15,MONTSERRAT,MSA011,3.9,30,917,932,15,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,3,20,20,20,,0.0286,3,0.6864,ACANCO
+168,18-Oct-15,MONTSERRAT,MA038,20,30,834,848,14,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,20,20,20,,0.0286,3,0.4576,ACANCO
+172,18-Oct-15,MONTSERRAT,MA038,10,30,912,927,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,20,20,20,,0.0286,3,0.4576,ACANCO
+177,18-Oct-15,MONTSERRAT,S01,14,30,945,1002,17,HK,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,20,20,20,,0.0286,3,0.2288,ACANCO
+186,19-Oct-15,MONTSERRAT,WPT0054,20,30,956,1011,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,20,20,20,,0.0286,3,0.2288,ACANCO
+207,21-Oct-15,MONTSERRAT,WPY0187,20,30,1030,1045,15,EA,EG,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,9,20,20,20,,0.0286,3,2.0592,ACANCO
+213,24-Oct-15,MONTSERRAT,WPT0249,10,30,11:45,12:00,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,20,20,20,,0.0286,3,0.2288,ACANCO
+219,25-Oct-15,MONTSERRAT,WPT0251,20,30,9:40,9:52,12,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,20,20,20,,0.0286,3,0.2288,ACANCO
+220,25-Oct-15,MONTSERRAT,WPT0251,10,30,10:09,10:22,13,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,20,20,20,,0.0286,3,0.2288,ACANCO
+228,16-Oct-15,MONTSERRAT,MSA-158,5,30,10:03,10:42,14,SM,AC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,20,20,20,,0.0286,3,0.4576,ACANCO
+230,16-Oct-15,MONTSERRAT,MSA-164,10,30,13:57,14:40,15,SM,AC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,6,20,20,20,,0.0286,3,1.3728,ACANCO
+284,20-Oct-15,MONTSERRAT,171,20,30,,,15,SM,DH,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,20,20,20,,0.0084,3.1,0.090671807,SERRGU
+299,15-Oct-15,MONTSERRAT,MSA154,4,23,109,126,17,MC,RM,QUAL,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,20,20,20,,0.0216,3,0.1728,HOLOAD
+308,17-Oct-15,MONTSERRAT,BB02,5,30,1453,1508,15,HK,DH,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,20,20,20,,0.0216,3,0.1728,HOLOAD
+320,19-Oct-15,MONTSERRAT,FP13,9.1,30,241,256,15,MC,RM,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,2,20,20,20,,0.0216,3,0.3456,HOLOAD
+336,24-Oct-15,MONTSERRAT,WPT0248,5,30,1020,1035,15,DG,DH,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,20,20,20,,0.0216,3,0.1728,HOLOAD
+339,20-Oct-15,MONTSERRAT,168,20,30,10:50,11:25,15,SM,DH,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,20,20,20,,0.0216,3,0.1728,HOLOAD
+341,13-Oct-15,MONTSERRAT,MSA-181,20,30,8:46,9:23,14,SM,AC,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,20,20,20,,0.0429,2.719,0.147896484,LUTJMA
+346,17-Oct-15,MONTSERRAT,1133,20,30,10:25,11:05,15,SM,AE,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,20,20,20,,0.0429,2.719,0.147896484,LUTJMA
+391,20-Oct-15,MONTSERRAT,168,20,30,10:50,11:25,15,SM,DH,QUAN,LUSY,Lutjanidae,Lutjanus,Lutjanus synagris,lane snapper,1,20,20,20,,0.018,2.981,0.136032576,LUTJSY
+142,18-Oct-15,MONTSERRAT,MP070,20,30,1003,1018,15,DG,DH,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,5,16,25,20.5,,0.0286,3,1.231962875,ACANCO
+28,24-Oct-15,MONTSERRAT,WPT0248,20,30,1000,1015,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,21,21,21,,0.0923,2.744,0.392077072,ACANCH
+133,15-Oct-15,MONTSERRAT,MP053,15,30,1342,1357,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,21,21,21,,0.0286,3,0.2648646,ACANCO
+248,15-Oct-15,MONTSERRAT,MSA151,20,30,1033,1048,15,DG,EA,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,21,21,21,,0.0864,2.784,0.414545551,BALIVE
+313,18-Oct-15,MONTSERRAT,S02,7,30,1018,1033,15,HK,DH,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,21,21,21,,0.0216,3,0.2000376,HOLOAD
+366,18-Oct-15,MONTSERRAT,MP070,20,30,1003,1018,15,DG,DH,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,21,21,21,,0.0429,2.719,0.168877408,LUTJMA
+376,19-Oct-15,MONTSERRAT,WPT0053,5,30,912,926,15,DG,DH,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,21,21,21,,0.0429,2.719,0.168877408,LUTJMA
+72,12-Oct-15,MONTSERRAT,MP062,9.2,30,1204,1220,16,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,20,22,21,,0.0286,3,0.5297292,ACANCO
+214,24-Oct-15,MONTSERRAT,WPT0249,10,30,11:45,12:00,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,5,20,22,21,,0.0286,3,1.324323,ACANCO
+90,13-Oct-15,MONTSERRAT,MSA199,5,30,1240,1254,14,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,4,20,23,21.5,,0.0286,3,1.1369501,ACANCO
+188,19-Oct-15,MONTSERRAT,WPT0054,20,30,956,1011,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,10,20,23,21.5,,0.0286,3,2.84237525,ACANCO
+192,19-Oct-15,MONTSERRAT,WPT0056,5,30,1118,1132,14,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,50,20,23,21.5,,0.0286,3,14.21187625,ACANCO
+361,16-Oct-15,MONTSERRAT,WPT0029,24,30,901,915,15,DG,MC,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,14,19,24,21.5,,0.0429,2.719,2.520493027,LUTJMA
+2,14-Oct-15,MONTSERRAT,MSA037,20,30,1226,1241,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,22,22,22,,0.0191,3.08,0.260432527,ACANCH
+6,15-Oct-15,MONTSERRAT,MSA151,20,30,1033,1048,15,DG,EA,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,22,22,22,,0.0923,2.744,0.445460846,ACANCH
+9,18-Oct-15,MONTSERRAT,MP070,20,30,1003,1018,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,22,22,22,,0.0923,2.744,0.445460846,ACANCH
+29,24-Oct-15,MONTSERRAT,WPT0248,10,30,1020,1035,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,2,22,22,22,,0.0923,2.744,0.890921691,ACANCH
+42,12-Oct-15,MONTSERRAT,MP-074,5,30,9:30,9:55,15,SM,AC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,22,22,22,,0.0923,2.744,0.445460846,ACANCO
+110,14-Oct-15,MONTSERRAT,MSA133,20,30,800,812,12,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,22,22,22,,0.0286,3,0.3045328,ACANCO
+128,15-Oct-15,MONTSERRAT,MSA115,20,30,912,924,12,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,22,22,22,,0.0286,3,0.3045328,ACANCO
+191,19-Oct-15,MONTSERRAT,WPT0056,5,30,1118,1132,14,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,22,22,22,,0.0286,3,0.3045328,ACANCO
+218,25-Oct-15,MONTSERRAT,WPT0251,20,30,9:40,9:52,12,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,22,22,22,,0.0286,3,0.6090656,ACANCO
+242,13-Oct-15,MONTSERRAT,MSA199,5,30,1240,1254,14,EG,EA,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,22,22,22,,0.0864,2.784,0.471865783,BALIVE
+254,21-Oct-15,MONTSERRAT,Woodlands MOSA,5,30,1033,1045,12,HK,DH,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,22,22,22,,0.0864,2.784,0.471865783,BALIVE
+261,13-Oct-15,MONTSERRAT,1092,20,30,13:00,13:45,NA,SM,AC,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,22,22,22,,0.0084,3.1,0.121839918,SERRGU
+280,18-Oct-15,MONTSERRAT,1179,20,30,,,17,SM,AC,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,22,22,22,,0.0084,3.1,0.121839918,SERRGU
+283,19-Oct-15,MONTSERRAT,1182,20,30,8:00,8:40,15,SM,AC,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,22,22,22,,0.0084,3.1,0.121839918,SERRGU
+309,17-Oct-15,MONTSERRAT,MSA094,7,30,832,846,14,HK,DH,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,22,22,22,,0.0216,3,0.2299968,HOLOAD
+312,18-Oct-15,MONTSERRAT,S01,14,30,945,1002,17,HK,DH,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,22,22,22,,0.0216,3,0.2299968,HOLOAD
+371,18-Oct-15,MONTSERRAT,MSA011,20,30,1051,1106,15,DG,DH,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,2,22,22,22,,0.0429,2.719,0.383296238,LUTJMA
+30,19-Oct-15,MONTSERRAT,WPT0056,10,30,1051,1104,13,EG,EA,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,10,20,25,22.5,,0.0923,2.744,4.737950627,ACANCH
+92,13-Oct-15,MONTSERRAT,MSA013,5,30,1523,1538,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,5,20,25,22.5,,0.0286,3,1.628859375,ACANCO
+97,13-Oct-15,MONTSERRAT,MSA167,7.6,30,1235,1252,17,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,4,20,25,22.5,,0.0286,3,1.3030875,ACANCO
+173,18-Oct-15,MONTSERRAT,MA038,10,30,912,927,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,14,20,25,22.5,,0.0286,3,4.56080625,ACANCO
+189,19-Oct-15,MONTSERRAT,WPT0054,20,30,956,1011,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,20,20,25,22.5,,0.0286,3,6.5154375,ACANCO
+190,19-Oct-15,MONTSERRAT,WPT0056,10,30,1051,1104,13,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,60,20,25,22.5,,0.0286,3,19.5463125,ACANCO
+212,24-Oct-15,MONTSERRAT,WPT0249,20,30,11:19,11:34,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,10,20,25,22.5,,0.0286,3,3.25771875,ACANCO
+215,24-Oct-15,MONTSERRAT,WPT0249,10,30,11:45,12:00,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,50,20,25,22.5,,0.0286,3,16.28859375,ACANCO
+34,24-Oct-15,MONTSERRAT,WPT0248,5,30,1020,1035,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,25,17,28,22.5,,0.0923,2.744,11.84487657,ACANCH
+5,15-Oct-15,MONTSERRAT,WPT0020,20,30,823,838,15,DG,EG,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,23,23,23,,0.0923,2.744,0.503248957,ACANCH
+14,18-Oct-15,MONTSERRAT,MP070,20,30,1003,1018,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,23,23,23,,0.0923,2.744,0.503248957,ACANCH
+32,24-Oct-15,MONTSERRAT,WPT0248,10,30,1020,1035,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,23,23,23,,0.0923,2.744,0.503248957,ACANCH
+82,13-Oct-15,MONTSERRAT,MSA040,10,30,1152,1207,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,23,23,23,,0.0286,3,0.6959524,ACANCO
+87,13-Oct-15,MONTSERRAT,MSA199,5,30,1240,1254,14,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,23,23,23,,0.0286,3,0.3479762,ACANCO
+129,15-Oct-15,MONTSERRAT,MSA115,20,30,912,924,12,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,23,23,23,,0.0286,3,0.6959524,ACANCO
+130,15-Oct-15,MONTSERRAT,MP053,15,30,1342,1357,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,23,23,23,,0.0286,3,0.3479762,ACANCO
+170,18-Oct-15,MONTSERRAT,MA038,20,30,834,848,14,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,23,23,23,,0.0286,3,0.3479762,ACANCO
+187,19-Oct-15,MONTSERRAT,WPT0054,20,30,956,1011,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,23,23,23,,0.0286,3,0.3479762,ACANCO
+209,24-Oct-15,MONTSERRAT,WPT0249,20,30,11:19,11:34,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,23,23,23,,0.0286,3,0.6959524,ACANCO
+221,25-Oct-15,MONTSERRAT,WPT0251,10,30,10:09,10:22,13,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,23,23,23,,0.0286,3,0.3479762,ACANCO
+273,18-Oct-15,MONTSERRAT,S01,14,30,945,1002,17,HK,DH,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,23,23,23,,0.0084,3.1,0.13984134,SERRGU
+278,17-Oct-15,MONTSERRAT,MA015,20,30,815,829,14,DG,DH,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,23,23,23,,0.0084,3.1,0.13984134,SERRGU
+298,15-Oct-15,MONTSERRAT,MSA029,11.1,30,1103,1118,15,MC,RM,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,23,23,23,,0.0216,3,0.2628072,HOLOAD
+328,20-Oct-15,MONTSERRAT,Northwest Bluff Hobo,9.3,30,1056,1111,15,MC,RM,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,2,23,23,23,,0.0216,3,0.5256144,HOLOAD
+330,21-Oct-15,MONTSERRAT,Sargassum Field,17.1,30,1121,1135,14,MC,RM,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,23,23,23,,0.0216,3,0.2628072,HOLOAD
+370,18-Oct-15,MONTSERRAT,MP070,20,30,1003,1018,15,DG,DH,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,23,23,23,,0.0429,2.719,0.216269501,LUTJMA
+378,24-Oct-15,MONTSERRAT,WPT0248,20,30,1000,1015,15,DG,DH,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,23,23,23,,0.0429,2.719,0.216269501,LUTJMA
+3,14-Oct-15,MONTSERRAT,MSA037,20,30,1226,1241,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,2,24,24,24,,0.0923,2.744,1.131179026,ACANCH
+16,19-Oct-15,MONTSERRAT,WPT0053,10,30,843,858,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,24,24,24,,0.0923,2.744,0.565589513,ACANCH
+35,16-Oct-15,MONTSERRAT,MSA-150,10,30,9:17,9:47,13,SM,AC,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,2,24,24,24,,0.0923,2.744,1.131179026,ACANCH
+85,13-Oct-15,MONTSERRAT,MSA040,10,30,1152,1207,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,24,24,24,,0.0286,3,0.3953664,ACANCO
+132,15-Oct-15,MONTSERRAT,MP053,15,30,1342,1357,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,24,24,24,,0.0286,3,0.3953664,ACANCO
+229,16-Oct-15,MONTSERRAT,MSA-164,10,30,13:57,14:40,15,SM,AC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,4,24,24,24,,0.0286,3,1.5814656,ACANCO
+236,24-Oct-15,MONTSERRAT,1230,17,30,12:36,13:51,14,SM,AC,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,24,24,24,,0.0286,3,0.3953664,ACANCO
+282,19-Oct-15,MONTSERRAT,1182,20,30,8:00,8:40,15,SM,AC,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,24,24,24,,0.0084,3.1,0.159563714,SERRGU
+379,24-Oct-15,MONTSERRAT,WPT0248,20,30,1000,1015,15,DG,DH,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,24,24,24,,0.0429,2.719,0.242801664,LUTJMA
+389,16-Oct-15,MONTSERRAT,MSA054,10,30,1313,1328,15,DG,MC,QUAN,LUSY,Lutjanidae,Lutjanus,Lutjanus synagris,lane snapper,1,24,24,24,,0.018,2.981,0.234251412,LUTJSY
+390,17-Oct-15,MONTSERRAT,MA015,20,30,815,829,14,DG,DH,QUAN,LUSY,Lutjanidae,Lutjanus,Lutjanus synagris,lane snapper,1,24,24,24,,0.018,2.981,0.234251412,LUTJSY
+7,15-Oct-15,MONTSERRAT,MSA151,20,30,1033,1048,15,DG,EA,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,25,25,25,,0.0923,2.744,0.632628983,ACANCH
+15,18-Oct-15,MONTSERRAT,MP070,20,30,1003,1018,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,2,25,25,25,,0.0923,2.744,1.265257967,ACANCH
+17,19-Oct-15,MONTSERRAT,WPT0053,10,30,843,858,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,25,25,25,,0.0923,2.744,0.632628983,ACANCH
+19,19-Oct-15,MONTSERRAT,WPT0053,5,30,912,926,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,25,25,25,,0.0923,2.744,0.632628983,ACANCH
+20,19-Oct-15,MONTSERRAT,WPT0057,20,30,1207,1222,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,25,25,25,,0.0923,2.744,0.632628983,ACANCH
+25,18-Oct-15,MONTSERRAT,MSA162,12.4,30,855,912,17,MC,RM,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,25,25,25,,0.0923,2.744,0.632628983,ACANCH
+26,18-Oct-15,MONTSERRAT,SO3,13,30,1104,1121,17,MC,RM,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,2,25,25,25,,0.0923,2.744,1.265257967,ACANCH
+33,24-Oct-15,MONTSERRAT,WPT0248,10,30,1020,1035,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,25,25,25,,0.0923,2.744,0.632628983,ACANCH
+54,12-Oct-15,MONTSERRAT,MA070N,5,30,1151,1207,16,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,25,25,25,,0.0286,3,0.446875,ACANCO
+57,12-Oct-15,MONTSERRAT,MP049S,5,30,1230,1245,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,25,25,25,,0.0286,3,0.446875,ACANCO
+66,12-Oct-15,MONTSERRAT,WPT1003N,20,30,1445,1500,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,25,25,25,,0.0286,3,0.446875,ACANCO
+68,12-Oct-15,MONTSERRAT,WPT1003N,20,30,1445,1500,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,25,25,25,,0.0286,3,0.446875,ACANCO
+84,13-Oct-15,MONTSERRAT,MSA040,10,30,1152,1207,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,25,25,25,,0.0286,3,0.446875,ACANCO
+89,13-Oct-15,MONTSERRAT,MSA199,5,30,1240,1254,14,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,25,25,25,,0.0286,3,0.446875,ACANCO
+91,13-Oct-15,MONTSERRAT,MSA013,5,30,1523,1538,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,25,25,25,,0.0286,3,0.446875,ACANCO
+96,13-Oct-15,MONTSERRAT,MSA068,7.4,30,932,948,16,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,25,25,25,,0.0286,3,0.89375,ACANCO
+150,16-Oct-15,MONTSERRAT,MSA172,5,30,1045,1100,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,25,25,25,,0.0286,3,0.446875,ACANCO
+169,18-Oct-15,MONTSERRAT,MA038,20,30,834,848,14,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,25,25,25,,0.0286,3,0.446875,ACANCO
+171,18-Oct-15,MONTSERRAT,MA038,10,30,912,927,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,2,25,25,25,,0.0286,3,0.89375,ACANCO
+185,19-Oct-15,MONTSERRAT,WPT0054,20,30,956,1011,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,25,25,25,,0.0286,3,0.446875,ACANCO
+203,20-Oct-15,MONTSERRAT,Pinnacle Hobo,11.5,30,822,838,16,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,25,25,25,,0.0286,3,0.446875,ACANCO
+246,15-Oct-15,MONTSERRAT,WPT0020,20,30,823,838,15,DG,EG,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,25,25,25,,0.0864,2.784,0.673563782,BALIVE
+266,15-Oct-15,MONTSERRAT,MSA029,11.1,30,1103,1118,15,MC,RM,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,25,25,25,,0.0084,3.1,0.181089518,SERRGU
+274,19-Oct-15,MONTSERRAT,FP11,16.7,30,1222,1239,17,MC,RM,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,25,25,25,,0.0084,3.1,0.181089518,SERRGU
+307,17-Oct-15,MONTSERRAT,MSA103b,5.1,30,1047,1104,17,MC,RM,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,4,25,25,25,,0.0216,3,1.35,HOLOAD
+310,18-Oct-15,MONTSERRAT,MSA162,12.4,30,855,912,17,MC,RM,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,2,25,25,25,,0.0216,3,0.675,HOLOAD
+311,18-Oct-15,MONTSERRAT,SO3,13,30,1104,1121,17,MC,RM,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,25,25,25,,0.0216,3,0.3375,HOLOAD
+319,19-Oct-15,MONTSERRAT,FP11,16.7,30,1222,1239,17,MC,RM,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,25,25,25,,0.0216,3,0.3375,HOLOAD
+322,18-Oct-15,MONTSERRAT,MSA011,20,30,1051,1106,15,DG,DH,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,25,25,25,,0.0216,3,0.3375,HOLOAD
+323,19-Oct-15,MONTSERRAT,WPT0053,10,30,843,858,15,DG,DH,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,25,25,25,,0.0216,3,0.3375,HOLOAD
+331,21-Oct-15,MONTSERRAT,WPY0187,20,30,1030,1045,15,EA,EG,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,25,25,25,,0.0216,3,0.3375,HOLOAD
+337,25-Oct-15,MONTSERRAT,WPT0250,10,30,8:19,8:34,15,DG,DH,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,25,25,25,,0.0216,3,0.3375,HOLOAD
+349,14-Oct-15,MONTSERRAT,MSA074,6,30,1218,1232,14,MC,RM,QUAL,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,25,25,25,,0.0429,2.719,0.271303987,LUTJMA
+350,14-Oct-15,MONTSERRAT,MSA015,15,30,214,230,16,MC,RM,QUAL,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,25,25,25,,0.0429,2.719,0.271303987,LUTJMA
+377,19-Oct-15,MONTSERRAT,WPT0053,5,30,912,926,15,DG,DH,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,25,25,25,,0.0429,2.719,0.271303987,LUTJMA
+93,13-Oct-15,MONTSERRAT,MSA013,5,30,1523,1538,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,10,20,30,25,,0.0286,3,4.46875,ACANCO
+94,13-Oct-15,MONTSERRAT,MSA013,5,30,1523,1538,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,10,20,30,25,,0.0286,3,4.46875,ACANCO
+210,24-Oct-15,MONTSERRAT,WPT0249,20,30,11:19,11:34,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,3,23,28,25.5,,0.0286,3,1.422681975,ACANCO
+18,19-Oct-15,MONTSERRAT,WPT0053,10,30,843,858,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,26,26,26,,0.0923,2.744,0.704512281,ACANCH
+281,18-Oct-15,MONTSERRAT,1179,20,30,,,17,SM,AC,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,26,26,26,,0.0084,3.1,0.204501579,SERRGU
+211,24-Oct-15,MONTSERRAT,WPT0249,20,30,11:19,11:34,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,3,25,27,26,,0.0286,3,1.5080208,ACANCO
+8,16-Oct-15,MONTSERRAT,WPT0029,24,30,901,915,15,DG,MC,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,27,27,27,,0.0923,2.744,0.781382841,ACANCH
+27,21-Oct-15,MONTSERRAT,WPT0209,10,30,1355,1410,15,DG,DH,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,27,27,27,,0.0923,2.744,0.781382841,ACANCH
+325,19-Oct-15,MONTSERRAT,WPT0053,5,30,912,926,15,DG,DH,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,27,27,27,,0.0216,3,0.4251528,HOLOAD
+372,19-Oct-15,MONTSERRAT,WPT0053,10,30,843,858,15,DG,DH,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,27,27,27,,0.0429,2.719,0.334453209,LUTJMA
+362,18-Oct-15,MONTSERRAT,SO3,13,30,1104,1121,17,MC,RM,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,3,26,28,27,,0.0429,2.719,1.003359626,LUTJMA
+109,13-Oct-15,MONTSERRAT,MSA051,7.6,30,1059,1115,16,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,4,25,30,27.5,,0.0286,3,2.3791625,ACANCO
+111,14-Oct-15,MONTSERRAT,MSA071,10,30,906,918,12,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,3,25,30,27.5,,0.0286,3,1.784371875,ACANCO
+259,25-Oct-15,MONTSERRAT,1235,20.5,30,8:37,9:13,14,SM,AC,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,28,28,28,,0.0864,2.784,0.923425157,BALIVE
+316,19-Oct-15,MONTSERRAT,WPT0054,20,30,956,1011,15,EG,EA,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,28,28,28,,0.0216,3,0.4741632,HOLOAD
+327,20-Oct-15,MONTSERRAT,Pinnacle Hobo,11.5,30,822,838,16,MC,RM,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,28,28,28,,0.0216,3,0.4741632,HOLOAD
+334,24-Oct-15,MONTSERRAT,WPT0248,20,30,1000,1015,15,DG,DH,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,28,28,28,,0.0216,3,0.4741632,HOLOAD
+369,19-Oct-15,MONTSERRAT,FP11,16.7,30,1222,1239,17,MC,RM,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,28,28,28,,0.0429,2.719,0.369215546,LUTJMA
+380,25-Oct-15,MONTSERRAT,WPT0250,10,30,8:19,8:34,15,DG,DH,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,28,28,28,,0.0429,2.719,0.369215546,LUTJMA
+324,19-Oct-15,MONTSERRAT,WPT0053,10,30,843,858,15,DG,DH,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,29,29,29,,0.0216,3,0.5268024,HOLOAD
+37,25-Oct-15,MONTSERRAT,1235,20.5,30,8:37,9:13,14,SM,AC,QUAN,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,1,30,30,30,,0.0923,2.744,1.043331751,ACANCH
+70,12-Oct-15,MONTSERRAT,MP076,13.3,30,940,957,17,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,5,30,30,30,,0.0286,3,3.861,ACANCO
+73,12-Oct-15,MONTSERRAT,MP062,9.2,30,1204,1220,16,MC,RM,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,30,30,30,,0.0286,3,0.7722,ACANCO
+86,13-Oct-15,MONTSERRAT,MSA040,10,30,1152,1207,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,30,30,30,,0.0286,3,0.7722,ACANCO
+112,14-Oct-15,MONTSERRAT,MSA071,10,30,906,918,12,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,30,30,30,,0.0286,3,0.7722,ACANCO
+151,16-Oct-15,MONTSERRAT,MSA009,10,13,1402,1408,6,EG,EA,QUAL,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,30,30,30,,0.0286,3,0.7722,ACANCO
+216,24-Oct-15,MONTSERRAT,WPT0249,10,30,11:45,12:00,15,EG,EA,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,1,30,30,30,,0.0286,3,0.7722,ACANCO
+251,19-Oct-15,MONTSERRAT,WPT0054,20,30,956,1011,15,EG,EA,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,30,30,30,,0.0864,2.784,1.118972248,BALIVE
+255,19-Oct-15,MONTSERRAT,WPT0057,20,30,1207,1222,15,DG,DH,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,30,30,30,,0.0864,2.784,1.118972248,BALIVE
+269,16-Oct-15,MONTSERRAT,WPT0028,24,30,814,826,12,EG,EA,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,30,30,30,,0.0084,3.1,0.318680269,SERRGU
+288,16-Oct-15,MONTSERRAT,MSA-150,10,30,9:17,9:47,13,SM,AC,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,30,30,30,,0.0216,3,0.5832,HOLOAD
+317,19-Oct-15,MONTSERRAT,WPT0054,20,30,956,1011,15,EG,EA,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,30,30,30,,0.0216,3,0.5832,HOLOAD
+318,19-Oct-15,MONTSERRAT,WPT0056,10,30,1051,1104,13,EG,EA,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,30,30,30,,0.0216,3,0.5832,HOLOAD
+332,19-Oct-15,MONTSERRAT,WPT0053,5,30,912,926,15,DG,DH,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,30,30,30,,0.0216,3,0.5832,HOLOAD
+335,24-Oct-15,MONTSERRAT,WPT0248,20,30,1000,1015,15,DG,DH,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,30,30,30,,0.0216,3,0.5832,HOLOAD
+256,24-Oct-15,MONTSERRAT,WPT0248,20,30,1000,1015,15,DG,DH,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,31,31,31,,0.0864,2.784,1.225927248,BALIVE
+277,15-Oct-15,MONTSERRAT,MSA151,20,30,1033,1048,15,DG,EA,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,31,31,31,,0.0084,3.1,0.352777223,SERRGU
+279,16-Oct-15,MONTSERRAT,MSA-150,10,30,9:17,9:47,13,SM,AC,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,32,32,32,,0.0084,3.1,0.38926398,SERRGU
+342,13-Oct-15,MONTSERRAT,MSA-181,20,30,8:46,9:23,14,SM,AC,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,32,32,32,,0.0429,2.719,0.530835652,LUTJMA
+333,19-Oct-15,MONTSERRAT,WPT0053,5,30,912,926,15,DG,DH,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,1,34,34,34,,0.0216,3,0.8489664,HOLOAD
+244,15-Oct-15,MONTSERRAT,MSA115,20,30,912,924,12,EG,EA,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,35,35,35,,0.0864,2.784,1.718696442,BALIVE
+245,15-Oct-15,MONTSERRAT,MSA029,11.1,30,1103,1118,15,MC,RM,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,35,35,35,,0.0864,2.784,1.718696442,BALIVE
+250,19-Oct-15,MONTSERRAT,WPT0054,20,30,956,1011,15,EG,EA,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,35,35,35,,0.0864,2.784,1.718696442,BALIVE
+257,14-Oct-15,MONTSERRAT,1107,20,30,13:58,14:29,14,SM,AC,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,35,35,35,,0.0864,2.784,1.718696442,BALIVE
+263,12-Oct-15,MONTSERRAT,MP076,13.3,30,940,957,17,MC,RM,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,35,35,35,,0.0084,3.1,0.513913733,SERRGU
+264,15-Oct-15,MONTSERRAT,MP053,15,30,1342,1357,15,EG,EA,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,35,35,35,,0.0084,3.1,0.513913733,SERRGU
+249,15-Oct-15,MONTSERRAT,MSA151,20,30,1033,1048,15,DG,EA,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,36,36,36,,0.0864,2.784,1.858916596,BALIVE
+253,16-Oct-15,MONTSERRAT,WPT0029,24,30,901,915,15,DG,MC,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,36,36,36,,0.0864,2.784,1.858916596,BALIVE
+258,15-Oct-15,MONTSERRAT,1115,20,30,14:00,14:40,15,SM,AC,QUAL,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,36,36,36,Off transect,0.0864,2.784,1.858916596,BALIVE
+287,25-Oct-15,MONTSERRAT,1235,20.5,30,8:37,9:13,14,SM,AC,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,38,38,38,,0.0084,3.1,0.663144902,SERRGU
+243,14-Oct-15,MONTSERRAT,MSA200,15,30,908,922,14,MC,RM,QUAN,BAVE,Balistidae,Balistes,Balistes vetula,queen triggerfish,1,40,40,40,,0.0864,2.784,2.492578005,BALIVE
+265,15-Oct-15,MONTSERRAT,MP053,15,30,1342,1357,15,EG,EA,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,40,40,40,,0.0084,3.1,0.777437095,SERRGU
+272,18-Oct-15,MONTSERRAT,S01,14,30,945,1002,17,HK,DH,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,40,40,40,,0.0084,3.1,0.777437095,SERRGU
+347,12-Oct-15,MONTSERRAT,MP076,13.3,30,940,957,17,MC,RM,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,13,40,40,40,,0.0429,2.719,12.65906882,LUTJMA
+271,18-Oct-15,MONTSERRAT,S01,14,30,945,1002,17,HK,DH,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,48,48,48,,0.0084,3.1,1.368129231,SERRGU
+270,18-Oct-15,MONTSERRAT,S01,14,30,945,1002,17,HK,DH,QUAN,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,55,55,55,,0.0084,3.1,2.086429062,SERRGU
+24,17-Oct-15,MONTSERRAT,BB01,7,30,1421,1436,15,HK,DH,QUAL,ACCH,Acanthuridae,Acanthurus,Acanthurus chirurgus,doctorfish,,NA,NA,NA,,0.0923,2.744,0,ACANCH
+121,14-Oct-15,MONTSERRAT,MSA137,30,30,1135,1150,15,HK,MB,QUAL,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,,NA,NA,NA,,0.0286,3,0,ACANCO
+200,19-Oct-15,MONTSERRAT,1186,6.8,30,1201,1231,30,GM,AE,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,3,NA,NA,NA,,0.0286,3,0,ACANCO
+201,19-Oct-15,MONTSERRAT,1184,15,30,1023,1103,40,GM,AE,QUAN,ACCO,Acanthuridae,Acanthurus,Acanthurus coeruleus,blue tang,4,NA,NA,NA,,0.0286,3,0,ACANCO
+262,15-Oct-15,MONTSERRAT,1115,20,30,14:00,14:40,15,SM,AC,QUAL,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,1,NA,NA,NA,Off transect,0.0084,3.1,0,SERRGU
+267,15-Oct-15,MONTSERRAT,MSA145,42,30,859,913,14,HK,MB,QUAL,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,,NA,NA,NA,"Rock patch about 2m past end of seagrass transect, sig. fish diversiy",0.0084,3.1,0,SERRGU
+275,19-Oct-15,MONTSERRAT,FP03,65,30,905,920,15,HK,DH,QUAL,EPGU,Serranidae,Epinephelus,Epinephelus guttatus,red hind,,NA,NA,NA,,0.0084,3.1,0,SERRGU
+300,15-Oct-15,MONTSERRAT,MSA145,42,30,859,913,14,HK,MB,QUAL,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,,NA,NA,NA,"Rock patch about 2m past end of seagrass transect, sig. fish diversiy",0.0216,3,0,HOLOAD
+315,18-Oct-15,MONTSERRAT,1181,11.8,30,1050,1120,30,GM,AE,QUAN,HOAD,Holocentridae,Holocentrus,Holocentrus adscensionis,squirrelfish,2,NA,NA,NA,,0.0216,3,0,HOLOAD
+344,17-Oct-15,MONTSERRAT,1149,5,30,15:30,16:05,15,SM,AE,QUAL,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,NA,NA,NA,Juvenile - may be lane snapper,0.0429,2.719,0,LUTJMA
+354,15-Oct-15,MONTSERRAT,MSA145,42,30,859,913,14,HK,MB,QUAL,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,,NA,NA,NA,"Rock patch about 2m past end of seagrass transect, sig. fish diversiy",0.0429,2.719,0,LUTJMA
+374,19-Oct-15,MONTSERRAT,1184,15,30,1023,1103,40,GM,AE,QUAN,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,4,NA,NA,NA,,0.0429,2.719,0,LUTJMA
+381,19-Oct-15,MONTSERRAT,1188,10,30,13:35,14:02,11,SM,AC,QUAL,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,1,NA,NA,NA,Off transect,0.0429,2.719,0,LUTJMA
+382,19-Oct-15,MONTSERRAT,1187,10,30,12:45,13:20,14,SM,AC,QUAL,LUMA,Lutjanidae,Lutjanus,Lutjanus mahogoni,mahogany snapper,,NA,NA,NA,Off transect,0.0429,2.719,0,LUTJMA
+387,19-Oct-15,MONTSERRAT,FP12,27,30,1348,1403,15,HK,DH,QUAL,LUSY,Lutjanidae,Lutjanus,Lutjanus synagris,lane snapper,,NA,NA,NA,,0.018,2.981,0,LUTJSY
