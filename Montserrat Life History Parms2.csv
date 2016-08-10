@@ -4,7 +4,7 @@ K,ACANCO,0.42,SEDAR30 high,Acanthurus coeruleus
 t0,ACANCO,-0.092,SEDAR30 high,Acanthurus coeruleus
 Wa,ACANCO,0.0305,Bohnsack & Harper 1988,Acanthurus coeruleus
 Wb,ACANCO,3,Bohnsack & Harper 1988,Acanthurus coeruleus
-Tmax,ACANCO,37,Mutz 2006,Acanthurus coeruleus
+tmax,ACANCO,37,Mutz 2006,Acanthurus coeruleus
 M,ACANCO,0.08097,Mutz 2007,Acanthurus coeruleus
 Linf,BALIVE,46,De Alblurquerque et al. 2011,Balistes vetula
 K,BALIVE,0.14,De Alblurquerque et al. 2012,Balistes vetula
@@ -39,6 +39,7 @@ M,LUTJVI,0.332859142,Ault et al. 1998,Lutjanus vivanus
 Linf,LUTJSY,59.566,Ault et al 1998,Lutjanus vivanus
 K,LUTJSY,0.097,Ault et al 1998,Lutjanus vivanus
 t0,LUTJSY,-1.728,Ault et al 1998,Lutjanus vivanus
+tmax,LUTJSY,12.2,Martinez-Andrade 2003,Lutjanus synagris
 M,LUTJSY,0.3,Ault et al 1998,Lutjanus vivanus
 Linf,SCARCH,40.0029,Molina-Urena 2009,Sparisoma chrysopterum
 K,SCARCH,0.6244,Molina-Urena 2009,Sparisoma chrysopterum
