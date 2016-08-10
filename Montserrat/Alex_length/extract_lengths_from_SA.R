@@ -33,7 +33,7 @@ SA_data[,3:6] = apply(SA_data[,3:6], 2, as.numeric)
 SA_data$trans_ID = seq(from = 1, to = length(SA_data$DATATYPE), by = 1)
 
 
-#generate individual length data
+#generate random individual length data (truncated normal distribution)
 
 SA_lengths_temp = plyr::ddply(SA_data[SA_data$NUMBER>=1,], 'trans_ID', function(x){
   if (x$NUMBER == 1 ){ length = x$MAX
