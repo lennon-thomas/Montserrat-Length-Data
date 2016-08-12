@@ -1,4 +1,4 @@
-Date,Vessel ID/ Length,Surveyor,Port,Area fished,% of total catch surveyed,Gear Type,No. of gears,Species ID,Species common name,% of individuals sampled out of total,Length (cm),Length Type,Weight (kg)
+Date,Vessel ID/ Length,Surveyor,Port,Area fished,% of total catch surveyed,Gear Type,No. of gears,Species ID,COMMON_NAME,% of individuals sampled out of total,Length,Length Type,Weight (kg)
 6/15/15,Everytime,LT/KS,John Ogarro processing shop,"8,9",,pots,,ACANCH,Doctorfish,,18,FL,0.15
 6/15/15,Everytime,LT/KS,John Ogarro processing shop,"8,9",,pots,,ACANCH,Doctorfish,,24.5,FL,0.35
 6/15/15,Everytime,LT/KS,John Ogarro processing shop,"8,9",,pots,,LUTJSY,Lane Snapper,,24,FL,0.21
