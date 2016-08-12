@@ -36,21 +36,21 @@ SA_data$trans_ID = seq(from = 1, to = length(SA_data$DATATYPE), by = 1)
 #generate random individual length data (truncated normal distribution)
 
 SA_lengths_temp = plyr::ddply(SA_data[SA_data$NUMBER>=1,], 'trans_ID', function(x){
-  if (x$NUMBER == 1 ){ length = x$MAX
+  if (x$NUMBER == 1 ){ Length = x$MAX
 
-  } else if (x$NUMBER == 2 ){ length = c(x$MIN, x$MAX)
+  } else if (x$NUMBER == 2 ){ Length = c(x$MIN, x$MAX)
 
-  }  else {length = truncnorm::rtruncnorm(n=x$NUMBER, a=x$MIN, b=x$MAX, mean=x$AVG)
+  }  else {Length = truncnorm::rtruncnorm(n=x$NUMBER, a=x$MIN, b=x$MAX, mean=x$AVG)
   }
 
-   data.frame(length)
+   data.frame(Length)
 })
                          
 #join idividual lengths to orginal data                      
 SA_lengths <- full_join(SA_lengths_temp, SA_data, by= 'trans_ID') 
 
 # the truncnorm function cannot produce numbers where max==min fill in NAs with MAX
-SA_lengths$length[is.na(SA_lengths$length)] <- SA_lengths$MAX[is.na(SA_lengths$length)]             
+SA_lengths$Length[is.na(SA_lengths$Length)] <- SA_lengths$MAX[is.na(SA_lengths$Length)]             
               
 # write file
 write.csv(SA_lengths, file = 'SA_individ_lengths.csv')
