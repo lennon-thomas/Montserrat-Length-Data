@@ -1,5 +1,6 @@
 library(ggplot2)
 library(dplyr)
+library(reshape2)
 
 lifehistory<-read.csv("Montserrat Life History Parms2.csv")
 lifehistory[is.na(lifehistory)] <- 0
