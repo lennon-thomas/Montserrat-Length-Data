@@ -1,5 +1,6 @@
 library(ggplot2)
 library(dplyr)
+library(tidyr)
 library(reshape2)
 
 lifehistory<-read.csv("MNI_LH_FINAL_9.24.csv")
@@ -9,7 +10,12 @@ View(lifehistory)
 lifehistory$Value[lifehistory$Species=="ACANCO"&lifehistory$Parameter=="Linf"]
 
 lifehistory<-na.omit(lifehistory)
-lh2<-dcast(lifehistory,Species~Parameter,value.var="Value",fun.aggreate=NULL)
+
+lh2<- lifehistory[,1:3] %>%
+      spread(Parameter, Value)
+  
+  
+  #dcast(lifehistory[1:3],Species~Parameter,value.var="Value",fun.aggreate=NULL)
 
 allspecies<-unique(lifehistory$Species)
 
