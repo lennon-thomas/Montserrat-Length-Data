@@ -24,8 +24,8 @@ species <- table(data$Species.ID)
 
 # Create sample size labels for plot
 n_df = data.frame(Species.ID=rownames(species[species > 30]), n=species[species > 30])
-n_df$xpos = c(24, 21, 38, 26, 30, 30, 40, 36)
-n_df$ypos = c(15, 20, 7.5, 10, 4, 6, 5, 20)
+n_df$xpos = c(21, 20, 38, 26, 30, 30, 40, 37)
+n_df$ypos = c(15, 20, 7.5, 10, 4, 6, 10, 25)
 
 data_threshold = data[data$Species.ID %in% names(species[species > 30]), ]
   
