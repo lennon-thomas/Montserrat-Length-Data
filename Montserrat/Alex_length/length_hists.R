@@ -39,7 +39,7 @@ SA_n_df = data.frame(Species.ID=rownames(SA_species), n = SA_species)
 SA_n_df$xpos = c(0, 0, 0, 5, 25, 15, 10)
 SA_n_df$ypos = c(15, 150, 3, 10, 20, 3, 6)
 
-# Plot hists for all species n>30 from length data
+# Plot hists for all species n>30 from catch length data
 library(ggplot2)
 
 length_h1 = ggplot(data = data_threshold) +
