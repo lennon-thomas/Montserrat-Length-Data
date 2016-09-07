@@ -3,7 +3,7 @@ library(dplyr)
 library(tidyr)
 library(reshape2)
 
-lifehistory<-read.csv("MNI_LH_FINAL_9.24.csv")
+lifehistory<-read.csv("MNI_LH_FINAL_aug_2016.csv")
 lifehistory[is.na(lifehistory)] <- 0
 View(lifehistory)
 
@@ -84,4 +84,4 @@ LHI <- lh2 %>%
   mutate(mk = M/K , LmLoo = Lm/Linf, Mtm = M * tmax) 
 
 
-
+View(LHI)
