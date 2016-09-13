@@ -24,8 +24,8 @@ species <- table(data$Species.ID)
 
 # Create sample size labels for plot
 n_df = data.frame(Species.ID=rownames(species[species > 30]), n=species[species > 30])
-n_df$xpos = c(24, 21, 38, 26, 30, 30, 40, 36)
-n_df$ypos = c(15, 20, 7.5, 10, 4, 6, 5, 20)
+n_df$xpos = c(21, 20, 38, 26, 30, 30, 40, 37)
+n_df$ypos = c(15, 20, 7.5, 10, 4, 6, 10, 25)
 
 data_threshold = data[data$Species.ID %in% names(species[species > 30]), ]
   
@@ -39,7 +39,7 @@ SA_n_df = data.frame(Species.ID=rownames(SA_species), n = SA_species)
 SA_n_df$xpos = c(0, 0, 0, 5, 25, 15, 10)
 SA_n_df$ypos = c(15, 150, 3, 10, 20, 3, 6)
 
-# Plot hists for all species n>30 from length data
+# Plot hists for all species n>30 from catch length data
 library(ggplot2)
 
 length_h1 = ggplot(data = data_threshold) +
