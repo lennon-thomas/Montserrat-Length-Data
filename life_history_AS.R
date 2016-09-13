@@ -3,7 +3,11 @@ library(dplyr)
 library(tidyr)
 library(reshape2)
 
+<<<<<<< HEAD
 lifehistory<-read.csv("MNI_LH_FINAL_aug_2016.csv")
+=======
+lifehistory <- read.csv("MNI_LH_FINAL_aug_2016.csv")
+>>>>>>> 9975109f05214f3755ce44002984e7914e985c93
 lifehistory[is.na(lifehistory)] <- 0
 View(lifehistory)
 
@@ -14,8 +18,6 @@ lifehistory<-na.omit(lifehistory)
 lh2<- lifehistory[,1:3] %>%
       spread(Parameter, Value)
   
-  
-  #dcast(lifehistory[1:3],Species~Parameter,value.var="Value",fun.aggreate=NULL)
 
 allspecies<-unique(lifehistory$Species)
 
@@ -43,45 +45,16 @@ for (i in 1:length(allspecies))
 }
 
 dev.off() # turns off pdf call
-# 
-# x<-(1:tmax[])
-# 
-# 
-# acanch<-lh2$Linf[1]*(1-exp(-lh2$K[1]*(x[]-lh2$t0[1])))
-# plot(acanch~x)
-# 
-# 
-# ?dcast
-# names(lifehistory)
-# View(lh2)
-# lvalues<-lifehistory$X=="Linf"
-# head(lh2)
-# View(lh2)
-# library(dplyr)
-# library(plyr)
-# library(tidyr)
-# library(reshape2)
-# library(reshape)
-# allspecies<-unique(lifehistory$Species)
-# a=1
-# 
-# 
-# for (a in 1:length(allspecies))
-#  {
-#   lifehistory %>%
-#     filter(Species==allspecies[a]) %>%
-#              ggplot(aes(x=Species, y=length)) +
-#              geom_bar(width=0.5)
-#  }
-#      dev.off()
-#      
+
 
 # Test LHI 
 #
-lh2$Lm= Lm$Lm 
 
 LHI <- lh2 %>%
-  mutate(mk = M/K , LmLoo = Lm/Linf, Mtm = M * tmax) 
+  mutate(mk = M/K , 
+         LmLinf = m50/Linf, 
+         LmLinf.est = 3/((M/K)+3),
+         Mtmax = M*tmax) 
 
 
 View(LHI)
