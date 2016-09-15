@@ -5,7 +5,7 @@ library(readr)
 
 #Data Summary Length Data
 
-data <- read.csv("Montserrat_Species_Length_Composition_Data_July_2016_AS.csv")
+data <- read.csv("Montserrat/Alex_length/Montserrat_Species_Length_Composition_Data_July_2016_AS.csv")
 names(data)
 days <- length(unique(data$Date))
 boats <- length(unique(data$Vessel.ID..Length))
@@ -32,7 +32,7 @@ data_threshold = data[data$Species.ID %in% names(species[species > 30]), ]
 #####
 #SA individual lengths data (generated with script 'extract_lenghts_SA.R')
 ####
-SA_lengths <- read.csv('SA_individ_lengths.csv')
+SA_lengths <- read.csv('Montserrat/Alex_length/SA_individ_lengths.csv')
 
 SA_species <- table(SA_lengths$Species.ID)
 SA_n_df = data.frame(Species.ID=rownames(SA_species), n = SA_species)
