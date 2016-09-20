@@ -7,10 +7,101 @@ catch<-read.csv("Sept_2016/data/MNI catch 94_15.csv")%>%
 View(catch)
 names(catch)
 
+unique(catch$trip_no)
 ## fix hoload/holoma species id problem
 catch[catch=="HOLOMA"]<-"HOLOAD"
 
+sampling_days<-catch%>%
+        group_by(year)%>%
+        summarise(days=length(unique(date)))
+        
+total_effort<-catch%>%
+  group_by(year)%>%
+  summarise(effort=length(unique(trip_no)))
 
+total_catch<-catch%>%
+  group_by(year)%>%
+  summarise(catch=sum(weight_kgs))
+
+annual_totals<-cbind(sampling_days,total_effort$effort,total_catch$catch)
+colnames(annual_totals)<-c("Year","Sampling_Days","Effort","Catch")
+
+annual_totals<-annual_totals%>%
+  mutate('CPUE'=Catch/Effort)%>%
+  mutate('Standardized_Catch'= Catch/Sampling_Days)#%>%
+  
+  #select(Year,Catch,Standaridzed_Catch,Effort,CPUE,Sampling_Days)
+  
+
+
+catch_plot<-ggplot(annual_totals,aes(x=Year,y=Catch))+
+  geom_line(color="lightseagreen",lwd=1.5)+
+  xlab("Year")+
+  ylab("Catch (kgs)")+
+  theme_bw() +
+  theme(
+    axis.title=element_text(face="bold"),
+    plot.background = element_blank()
+    ,panel.grid.major = element_blank()
+    ,panel.grid.minor = element_blank()
+    ,panel.border = element_blank()) +
+  theme(axis.line.x = element_line(color="black", size = 0.6),
+        axis.line.y = element_line(color="black", size = 0.6))+
+  scale_y_continuous(limits=c(0,50000))
+ 
+m_annual_totals<-melt(annual_totals,id='Year')%>%
+  filter(variable==c('Sampling_Days','Standardized_Catch'))
+
+s_catch_plot<-ggplot(m_annual_totals,aes(x=Year,y=value,col=variable,linetype=variable))+
+  geom_line(lwd=1.1)+
+  xlab("Year")+
+  ylab("")+
+  theme_bw() +
+  theme(legend.position="top",
+    axis.title=element_text(face="bold"),
+    plot.background = element_blank()
+    ,panel.grid.major = element_blank()
+    ,panel.grid.minor = element_blank()
+    ,panel.border = element_blank()) +
+  theme(axis.line.x = element_line(color="black", size = 0.6),
+        axis.line.y = element_line(color="black", size = 0.6))
+s_catch_plot<-s_catch_plot+scale_linetype_manual(name="",values=c("dashed", "solid"))+
+  scale_color_manual("",values=c('black','blue'),labels=c("No. of Sampling days","Standardized Catch (Catch/No. of sampling days)"))
+
+?scale_linetype_manual
+
+
+annual_plots<-ggplot(data=annual_totals, aes(x=Year,y=value))+
+  geom_line()+
+  xlab("Year")+
+
+   theme_bw() +
+  theme(
+    axis.title=element_text(face="bold"),
+    plot.background = element_blank()
+    ,panel.grid.major = element_blank()
+    ,panel.grid.minor = element_blank()
+    ,panel.border = element_blank()) +
+  theme(axis.line.x = element_line(color="black", size = 0.6),
+        axis.line.y = element_line(color="black", size = 0.6))
+annual_plots<-annual_plots+facet_wrap(~variable,scales="free_y", ncol=1)+
+  ylab(c("kgs","days","kgs/days"))
+plot(annual_plots)
+
+
+ggplot(data=annual_totals, aes(x=year,y=total_catch$catch))+
+  geom_line()+
+  xlab("Year")+
+  ylab("Catch (kgs)")+
+  theme_bw() +
+  theme(
+    axis.title=element_text(face="bold"),
+    plot.background = element_blank()
+    ,panel.grid.major = element_blank()
+    ,panel.grid.minor = element_blank()
+    ,panel.border = element_blank()) +
+  theme(axis.line.x = element_line(color="black", size = 0.6),
+        axis.line.y = element_line(color="black", size = 0.6))
 #1. Make 3 panelled graph showing total catch, cpue and effort
 ## simple data summaries maybe scratch cpue because doesn't include non zeros?
 trip_level<-catch%>%
@@ -24,7 +115,8 @@ totals<-trip_level%>%
   summarise(avg_cpue=mean(cpue),
             tot_catch=sum(t_catch),
             total_trip=length(trip_no))
-  
+
+
 
 
 sp_id<-c("BELO","ACANCH","ACANCO","BALIVE","HOLOAD","LUTJMA","LUTJSY","LUTJVI","SCARCH","SERRGU")
@@ -101,7 +193,7 @@ for (i in 1:length(sp_id)){
 #       summarise(avg_cpue=mean(cpue),
 #                 catch=sum(cpue),
 #                 effort=sum(trips))
-# totals<-melt(trip_level,id='year')
+# 
   
 
 
