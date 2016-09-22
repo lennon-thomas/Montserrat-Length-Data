@@ -2,18 +2,31 @@ library(dplyr)
 library(tidyr)
 library(reshape2)
 library(ggplot2)
+library(RColorBrewer)
+sapply(list.files(pattern="[.]R$", path="Sept_2016/Functions", full.names=TRUE), source)
+
+
 catch<-read.csv("Sept_2016/data/MNI catch 94_15.csv")%>%
-  mutate(trip_no=(paste(date,vesselid,sep="_")))%>%
-catch$common<-tolower(catch$common)
-str(catch)
+  mutate(trip_no=(paste(date,vesselid,sep="_")))
+ 
+   catch$common<-tolower(catch$common)
+   
+   table<-read.csv("Sept_2016/Data/spcommon.csv")
+   
+   catch<-merge(catch, table, by.x = "common", all.x = TRUE)
+   
+
+
 names(catch)
 sapply(list.files(pattern="[.]R$", path="Sept_2016/Functions", full.names=TRUE), source)
 #unique(catch$trip_no)
 ## fix hoload/holoma species id problem
 catch[catch=="HOLOMA"]<-"HOLOAD"
 
+table<-read.csv("Sept_2016/Data/spcommon.csv")
 
-
+catch<-merge(catch, table, by.x = "common", all.x = TRUE)
+View(catch2)
 ##########################################Annual############################################
 #########################################################################################
 sampling_days<-catch%>%
@@ -205,16 +218,15 @@ a_catch<-catch%>%
   group_by(year)%>%
   summarize("catch"=sum(weight_kgs))
 
-s<-catch%>%
-   group_by(year,common)%>% 
+f_catch<-catch%>%
+   group_by(year,family)%>% 
    summarize("sp_catch"=sum(weight_kgs))%>%
   arrange(desc(sp_catch))
   t<-sum(s$sp_catch)
  
-  
-View(s)
+
 sp<-catch%>%
-  group_by(year,common)%>%
+  group_by(year,family)%>%
   summarize("sp_catch"=sum(weight_kgs))%>%
   arrange(year,desc(sp_catch))%>%
   mutate("total"=0)
@@ -232,24 +244,129 @@ write.csv(common,file="Sept_2016/Data/spcommon.csv")
 sp2<-sp%>%
   mutate("perc"=sp_catch/total*100,
           "cumsum"=cumsum(perc))%>%
-           mutate('species'=ifelse(cumsum>80,"other",as.character(common)))
-
-
+           mutate('family'=ifelse(cumsum>80,"other",as.character(family)))
 
 sp3<-sp2%>%
-  group_by(year,species)%>%
-  summarize(catch=sum(sp_catch))%>%
-  arrange(year,desc(catch))
+  group_by(year,family)%>%
+  summarize("catch"=sum(sp_catch),
+            "perc"=sum(perc))%>%
+  arrange(year,(family))
+            
 View(sp3)
-names(sp2)
+
 
 group<-c("needlefish","squirrelfish","queen triggerfish","rock hind","parrotfish","cowfish","doctorfish","coney grouper","snapper","grunt","blue tang","rock beauty","ballyhoo","goatfish")
 
+rb=c("red","#9DFF00"  , "#FF7600" ,"#FFEB00" , "#27FF00", "#00FF4E" , "#00C4FF","#FF00EB", "#004EFF" ,"#2700FF" ,"#9D00FF",  "#FF0076","#00FFC4")
+
+sp_plot<-ggplot(data = sp3,aes(x =year, y = perc, fill = family)) + 
+  geom_bar(stat="identity")+
+  ylab("Percent of Total Catch (%)")+
+  xlab("Year")+
+  theme_bw()+
+  theme(
+        axis.title=element_text(face="bold")
+        ,plot.background = element_blank()
+        ,panel.grid.major = element_blank()
+        ,panel.grid.minor = element_blank()
+        ,panel.border = element_blank()
+        ,axis.line.x = element_line(color="black", size = 0.6)
+        ,axis.line.y = element_line(color="black", size = 0.6))+
+    scale_y_continuous(expand=c(0,0))+
+    scale_x_continuous(expand=c(0,0))+
+ scale_fill_discrete(name="Family")
+#####################################################################################################################################            
+catch$gearid<-tolower(catch$gearid)
+gears<-unique(catch$gearid)
+
+s<-c("spear fishing","sgun","fish gun","speargun","dive")
+p<-c("pot","pots","fish urn","pot ")
+bs<-c("beach seine","bsne","beach seine net","bs net","cnet","ballyhoo net","gillnet","gill net","gnet","b.s. net")
+l<-c("line","hlin","reel","plin","hand","line/ocean","slin","hli2")
+m<-c("line & pot", "pot/line","line/pot","line & spear")
+o<-c("","cadr","25","trwl","other")
+catch$gearid[catch$gearid %in% s]<-"spear"
+catch$gearid[catch$gearid %in% p]<-"pot"
+catch$gearid[catch$gearid %in% bs]<-"beach seine"
+catch$gearid[catch$gearid %in% l]<-"line"
+catch$gearid[catch$gearid %in% m]<-"multiple gears"
+catch$gearid[catch$gearid %in% o]<-"unknown"
 
 
-sp_plot<-ggplot(data = sp3,aes(x =year, y = catch, fill = species)) + 
-  geom_bar(stat="identity")
+gear_s<-catch%>%
+  group_by(year,gearid)%>%
+  summarize("catch"=sum(weight_kgs),
+            "effort"=length(unique(trip_no)))%>%
+  arrange(year,desc(catch))%>%
+  mutate("total"=0,"total2"=0)
+gear_s$total<-as.numeric(gear_s$total)
 
+for (i in 1:nrow(gear_s)){
+  y=gear_s$year[i]
+  c<-gear_s[gear_s$year==y,]
+  gear_s$total[i]<-sum(c$catch)
+  gear_s$total2[i]<-sum(c$effort)
+}
+
+g2<-gear_s%>%
+  mutate("perc"=catch/total*100,
+         "cumsum"=cumsum(perc),
+         "perc2"=effort/total2*100)%>%
+  arrange(year,gearid)
+# 
+# gear_sum<-catch%>%
+#   group_by(year,gearid)%>%
+#   summarize("catch"=sum(weight_kgs),
+#   "effort"=length(unique(trip_no)))
+  
+
+gear_plot<-ggplot(data = g2,aes(x =year, y = perc, fill = gearid)) + 
+  geom_bar(stat="identity")+
+  ylab("Percent of Total Catch (%)")+
+  xlab("Year")+
+  theme_bw()+
+  theme(
+    axis.title=element_text(face="bold")
+    ,plot.background = element_blank()
+    ,panel.grid.major = element_blank()
+    ,panel.grid.minor = element_blank()
+    ,panel.border = element_blank()
+    ,axis.line.x = element_line(color="black", size = 0.6)
+    ,axis.line.y = element_line(color="black", size = 0.6))+
+  scale_y_continuous(expand=c(0,0))+
+  scale_x_continuous(expand=c(0,0))+
+  scale_fill_discrete(name="Fishing Method")
+
+gear_plot2<-ggplot(data = g2,aes(x =year, y = perc2, fill = gearid)) + 
+  geom_bar(stat="identity")+
+  ylab("Percent of Total Effort (%)")+
+  xlab("Year")+
+  theme_bw()+
+  theme(
+    axis.title=element_text(face="bold")
+    ,plot.background = element_blank()
+    ,panel.grid.major = element_blank()
+    ,panel.grid.minor = element_blank()
+    ,panel.border = element_blank()
+    ,axis.line.x = element_line(color="black", size = 0.6)
+    ,axis.line.y = element_line(color="black", size = 0.6))+
+  scale_y_continuous(expand=c(0,0))+
+  scale_x_continuous(expand=c(0,0))+
+  scale_fill_discrete(name="Fishing Method")
+
+
+
+
+
+
+c<-palette()
+scale_fill_discrete()
+test <- data.frame(
+  test1 = sample(letters[1:2], 100, replace = TRUE),
+  test2 = sample(letters[3:8], 100, replace = TRUE)
+)
+
+sp_plot<-sp_plot+scale_fill_brewer(name = 'test2', breaks = 1:6, labels = levels(test$test2), palette = 'Set3')
 
 
 sp_id<-c("BELO","ACANCH","ACANCO","BALIVE","HOLOAD","LUTJMA","LUTJSY","LUTJVI","SCARCH","SERRGU")
