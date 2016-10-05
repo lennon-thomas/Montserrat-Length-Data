@@ -1,13 +1,13 @@
 ##Length data plot and data prep
-
+rm(list = ls())
 library(dplyr)
 library(readr)
 library(ggplot2)
-sapply(list.files(pattern="[.]R$", path="Sept_2016/Functions", full.names=TRUE), source)
+sapply(list.files(pattern="[.]R$", path="Functions", full.names=TRUE), source)
 #source("SubFunctions.R") 
 #Data Summary Length Data
 
-data <- read.csv("Sept_2016/Data/Montserrat_Species_Length_Composition_Data_July_2016_AS.csv")
+data <- read.csv("Data/Montserrat_Species_Length_Composition_Data_July_2016_AS.csv")
 names(data)
 days <- length(unique(data$Date))
 boats <- length(unique(data$Vessel.ID..Length))
@@ -37,7 +37,7 @@ common<-c(
   SERRGU="Red hind")
 
 
-SA<-read.csv("Sept_2016/data/SA_individ_lengths.csv")%>%
+SA<-read.csv("Data/SA_individ_lengths.csv")%>%
   mutate(Gear.Type="SA")
 nrow(SA)
 SA<-SA[!(SA$Length<3),] ## remove observations that are <3 cm
@@ -52,7 +52,7 @@ for (i in 1:length(sp_id)){
     select(Species.ID,Length,Gear.Type)
     t<-rbind(s,l)%>%
     mutate(Data.Type=ifelse(Gear.Type=="SA","Survey","Fishery"))%>%
-    write.csv(paste("Sept_2016/Data/",sp_id[i],"_length.csv",sep=""))
+    write.csv(paste("Data/",sp_id[i],"_length.csv",sep=""))
 }
 
 
@@ -65,33 +65,32 @@ PlotFontSize <- 11
 Surveycolor<-"red"
 Fisherycolor <- "lightseagreen"
 
-Directory<-("Sept_2016/Data")
+Directory<-("Data")
 Files <- list.files(Directory)
 
-i=1
 for (i in 1:length(sp_id)){
 
-LengthData <-read.csv(paste("Sept_2016/Data/",sp_id[i],"_length.csv",sep=""))
+LengthData <-read.csv(paste("Data/",sp_id[i],"_length.csv",sep=""))
 
-Fish<-read.csv("Sept_2016/data/life.csv")%>%
+Fish<-read.csv("Data/life.csv")%>%
   filter(species==sp_id[i])
 
 #source(paste(sp_id[i],"_ControlFile.R",sep=""))
-Fish$Mat50<-Fish$Mat50
+Fish$Mat50<-Fish$m95
 Fish$Linf<-Fish$Linf
 
-FigureFolder<- paste("Sept_2016/plots/")
+FigureFolder<- paste("plots/")
 name="Data Type"
 
 Theme<- theme(plot.background=element_rect(color='white'),
               rect=element_rect(fill='transparent',color=NA),
               text=element_text(size=11,color=FontColor),plot.title = element_text(),
-              axis.text.x=element_text(color=FontColor), axis.text.y=element_text(color="black"),panel.grid.major = element_blank(),
+              axis.text.x=element_text(color=FontColor), axis.text.y=element_text(color="black"),
               panel.grid.minor = element_blank(),
               panel.border = element_blank(),
               panel.background=element_blank(),
-             strip.background = element_rect(colour="white", fill="white"))+
-                theme(axis.line.x = element_line(color="black", size = 0.6),
+             strip.background = element_rect(colour="white", fill="white"),
+                axis.line.x = element_line(color="black", size = 0.6),
                       axis.line.y = element_line(color="black", size = 0.6))
 #Fish<-Fish$common
 Species=common[i]

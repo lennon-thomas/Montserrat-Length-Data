@@ -15,7 +15,7 @@ catch<-read.csv("Sept_2016/data/MNI catch 94_15.csv")%>%
    
    catch<-merge(catch, table, by.x = "common", all.x = TRUE)
    
-
+View(table)
 
 names(catch)
 sapply(list.files(pattern="[.]R$", path="Sept_2016/Functions", full.names=TRUE), source)
@@ -23,10 +23,10 @@ sapply(list.files(pattern="[.]R$", path="Sept_2016/Functions", full.names=TRUE),
 ## fix hoload/holoma species id problem
 catch[catch=="HOLOMA"]<-"HOLOAD"
 
-table<-read.csv("Sept_2016/Data/spcommon.csv")
-
-catch<-merge(catch, table, by.x = "common", all.x = TRUE)
-View(catch2)
+# table<-read.csv("Sept_2016/Data/spcommon.csv")
+# 
+# catch<-merge(catch, table, by.x = "common", all.x = TRUE)
+# View(catch2)
 ##########################################Annual############################################
 #########################################################################################
 sampling_days<-catch%>%
