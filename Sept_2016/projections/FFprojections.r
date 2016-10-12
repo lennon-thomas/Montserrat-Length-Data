@@ -1,9 +1,8 @@
 #rough draft of FF projections 
 
 rm(list = ls())
-setwd("~/Montserrat-Length-Data/Sept_2016/projections")
-params<-read.csv("LifeParms_MNI.csv",header=T)
-paramsSite<-read.csv("SiteParams_MNI.csv",header=T)      
+params<-read.csv("LHparams.csv",header=T)
+paramsSite<-read.csv("SiteParams.csv",header=T)      
       
  
  #################################################
@@ -13,8 +12,8 @@ paramsSite<-read.csv("SiteParams_MNI.csv",header=T)
  P=60                #number homogenous patches, differ only in fishing pressure
  TRfraction=1/3       #fraction of TR system to be compared to larger community, no matter how large or small TR system, we look at 2* for relative impact
  yearsOA=100
- yearsTR=0
- OAfrac=0.45          #open access equilibrium B/B0. Value from Catch MSY output
+ yearsTR=30
+ OAfrac=0.15          #open access equilibrium B/B0
  ##                                             #     
  ##                                             #     
  ##                                             #     
