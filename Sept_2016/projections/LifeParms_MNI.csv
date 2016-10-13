@@ -1,2 +1,2 @@
 id,Country,Site,Family,Scientific,Common,k,kUnits,kError,Linf,LinfUnit1,LinfUnit2,LinfError,t0,t0Error,WeightA,WeightB,WeightUnit1,WeightUnit2,WeightUnit3,AgeAvg,AgeUnits,Size,SizeUnit1,SizeUnit2,MortYr,MortInst,PLD,Range,RangeError,MatLeng,MatLengUnit1,MatAge,MatAgeUnit,FecundA,FecundB,FecundEggs,FecundUnit1,SpawnFreq,Steepness
-1,Montserrat,MNI,Lutjanidae,Lutjanus vivanus,silk snapper,0.09,yr,NA,78.1,cm,FL,NA,-2.309,,0.0373,"27,812",cm,FL,g,9,yr,770,cm,FL,0.332859142,0.404754073,36,241686.9517,NA,41.8,cm,4,yr,1,4,"108,000",NA,g,0.5
+1,Montserrat,MNI,Lutjanidae,Lutjanus vivanus,silk snapper,0.09,yr,NA,78.1,cm,FL,NA,-2.309,,1.00E-05,3.10,cm,FL,g,9,yr,770,cm,FL,0.23,0.261364764,36,241686.9517,NA,41.8,cm,3,yr,1,3,"108,000",NA,g,0.5
