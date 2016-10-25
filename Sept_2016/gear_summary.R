@@ -3,7 +3,8 @@ library(tidyr)
 library(reshape2)
 library(ggplot2)
 library(RColorBrewer)
-catch<-read.csv("Sept_2016/data/MNI catch 94_15.csv")%>%
+library(scales)
+catch<-read.csv("Data/MNI catch 94_15.csv")%>%
   mutate(trip_no=(paste(date,vesselid,sep="_")))
 View(catch)
 names(catch)
@@ -14,7 +15,10 @@ catch$gearid<-tolower(catch$gearid)
 ## fix hoload/holoma species id problem
 catch[catch=="HOLOMA"]<-"HOLOAD"
 length(b)
-
+test<-catch%>%
+  filter(year=="2015")
+v<-unique(test$fishername)
+names(test)
 unique(catch$gearid)
 pot<-c("pots","pot/line","line/pot","line & pot","pot ","fish urn")
 line<-c("25","hlin","plin","line/ocean","hand","hli2","line & spear","reel","slin")
@@ -63,15 +67,14 @@ gear_plot<-ggplot(dat,aes(x=year,y=c,fill=gearid))+
 ggsave("plots/gears.png",gear_plot,dpi=400)
 
 
-names(catch)
-unique(catch$Family)
+catch<-read.csv("Data/MNI catch 94_15_fam.csv")
 fam<-catch%>%
   group_by(year,Family)%>%
   summarise(catch=sum(weight_kgs,na.rm=TRUE))%>%
   ungroup()%>%
   arrange(year,Family)
 
-
+names(catch)
 catch$Family<-as.character(catch$Family)
 f<-c("Belonidae","Serranidae","Acanthuridae","Lutjanidae","Balistidae","Carangidae")
 catch$Family[!(catch$Family %in% f)]<-"Other"
@@ -104,23 +107,141 @@ fam_plot<-ggplot(fam,aes(x=year,y=catch,fill=Family))+
 ggsave("plots/family.png",fam_plot,dpi=400)
 
 
-dev.off()
+
+
+target<-read.csv("Sept_2016/Data/target_catch.csv")
+ 
+
+t<-c("SERRGU","BALIVE","ACANCO","ACANCH","LUTJVI")
+target$id10<-factor(target$id10,as.character(t))
+
+target<-target%>%
+  arrange((id10))
+
+
+
+target_plot<-ggplot(target,aes(x=year,y=catch,fill=id10))+
+ geom_bar(stat="identity")+
+  #geom_line(lwd=1.2)+
+  theme_bw()+
+  xlab("Year")+
+  ylab("Catch (kg)")+
+  scale_x_continuous(expand=c(0,0))+
+ scale_y_continuous(limits=c(0,15000),expand=c(0,0),labels=comma)+
+  theme(axis.title=element_text(face="bold",size=14),
+        axis.text=element_text(size=12),
+        legend.title=element_text(face="bold",size=14),
+        legend.text=element_text(size=12))+
+  #scale_fill_brewer(palette="Set3")
+ scale_fill_discrete(name="Species",breaks=c("SERRGU","BALIVE","ACANCO","ACANCH","LUTJVI"),
+labels=c("Red hind","Queen triggerfish","Blue tang","Doctorfish","Silk snapper"))
+ggsave("Sept_2016/plots/target.png",target_plot,dpi=400)
+
+
+unique(data$gearid)
+
+
+net_trips<-read.csv("Sept_2016/Data/MNI catch_cleangear.csv")%>%
+  mutate(trip_no=(paste(date,vesselid,sep="_")))%>%
+  group_by(year,gearid)%>%
+  filter(gearid=="net")%>%
+  summarise(trips=length(unique(trip_no)))
+
+
+
+
+bel_catch<-read.csv("Sept_2016/Data/MNI catch_cleangear.csv")%>%
+  mutate(trip_no=(paste(date,vesselid,sep="_")))%>%
+  group_by(year,id10)%>%
+  summarise(catch=sum(weight_kgs,na.rm=FALSE))%>%
+  filter(id10=="BELO")
+
+bel_catch<-cbind(bel_catch,net_trips$trips)
+bel_catch<-bel_catch%>%
+  mutate("cpue"=catch/net_trips$trips)
+colnames(bel_catch)<-c("Year","Species","catch","trips","cpue")
+
+
+bel_plot<-ggplot(bel_catch,aes(x=Year,y=cpue))+
+  geom_line()+
+  geom_line(aes(y=catch))+
+  # geom_point()+
+  #  facet_wrap(~variable,scale="free_y",ncol=1)+
+  xlab("Year")+
+  ylab("CPUE (catch/trips)")+
+  #scale_x_continuous(breaks=c(1,2,3,4,5,6,7,8,9,10,11,12),labels=c("J","F","M","A","M","J",
+  #                                                                "J","A","S","O","N","D"))+
+  theme_bw()+
+  theme(legend.position="none",
+        axis.title=element_text(face="bold"),
+        plot.background = element_blank()
+        ,panel.grid.major = element_blank()
+        ,panel.grid.minor = element_blank()
+        ,panel.border = element_blank()) +
+  theme(axis.line.x = element_line(color="black", size = 0.4),
+        axis.line.y = element_line(color="black", size = 0.4))+
+  scale_y_continuous(limits=c(0,120),expand=c(0,0),labels=comma)
+
+ggsave("Sept_2016/plots/Bel_cpue.png",bel_plot)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d
 tot<-catch%>%
   group_by(year)%>%
   summarise(total=sum(weight_kgs,na.rm=TRUE))
-
-
-fams<-fam%>%
-  group_by(Family)%>%
-  summarise(catch=sum(catch,na.rm=TRUE),
-            perc=catch/t*100)%>%
+sum(catch$weight_kgs,na.rm=TRUE)
+tb<-catch%>%
+  filter(year=="2015")%>%
+  summarize(total=sum(weight_kgs),na.rm=TRUE)
+catch<-read.csv("Data/MNI catch 94_15_fam.csv")
+fams<-catch%>%
+  group_by(Family,)%>%
+  summarise(catch=sum(weight_kgs,na.rm=TRUE),
+            perc=catch/612795.4*100)
+%
+  ungroup()%>%
   arrange(desc(perc))
+write.csv(fams,"Data/family_totals.csv")
+
 sum(fams$perc[1:6])
 
 catch$id10<-tolower(catch$id10)
 sp<-catch%>%
   group_by(id10)%>%
-  summarise(catch=sum(weight_kgs,na.rm=TRUE))%>%
+  summarise(catch=sum(weight_kgs,na.rm=TRUE),
+            perc2=catch/612795.4*100)%>%
   ungroup()%>%
   arrange(desc(catch))
+sum(sp$perc2)
+write.csv(sp,"Data/sp_totals.csv")
 
+names(catch)
+unique(catch$common)
+unique(catch$id10)
+sp_name<-unique(catch$scientific)
+sp_test<-catch[,c(1,28)]
+sp_test<-unique(sp_test)
+View(sp_test)
+write.csv(sp_test,"Data/speciesname.csv")
+catch[catch$id10=="holoma",]
+catch[catch$id10=="holoma",28]
+  sum(catch$weight_kgs,na.rm=TRUE)
+names(catch)
+detach(package:plyr)
+land<-catch%>%
+  group_by(year,name)%>%
+  summarise(to=sum(weight_kgs,na.rm=TRUE))
+View(land)

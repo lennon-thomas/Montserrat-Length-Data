@@ -3,11 +3,11 @@ rm(list = ls())
 library(dplyr)
 library(readr)
 library(ggplot2)
-sapply(list.files(pattern="[.]R$", path="Functions", full.names=TRUE), source)
+sapply(list.files(pattern="[.]R$", path="Sept_2016/Functions", full.names=TRUE), source)
 #source("SubFunctions.R") 
 #Data Summary Length Data
 
-data <- read.csv("Data/Montserrat_Species_Length_Composition_Data_July_2016_AS.csv")
+data <- read.csv("Sept_2016/Data/Montserrat_Species_Length_Composition_Data_July_2016_AS.csv")
 names(data)
 days <- length(unique(data$Date))
 boats <- length(unique(data$Vessel.ID..Length))
@@ -37,7 +37,7 @@ common<-c(
   SERRGU="Red hind")
 
 
-SA<-read.csv("Data/SA_individ_lengths.csv")%>%
+SA<-read.csv("Sept_2016/Data/SA_individ_lengths.csv")%>%
   mutate(Gear.Type="SA")
 nrow(SA)
 SA<-SA[!(SA$Length<3),] ## remove observations that are <3 cm
@@ -52,7 +52,7 @@ for (i in 1:length(sp_id)){
     select(Species.ID,Length,Gear.Type)
     t<-rbind(s,l)%>%
     mutate(Data.Type=ifelse(Gear.Type=="SA","Survey","Fishery"))%>%
-    write.csv(paste("Data/",sp_id[i],"_length.csv",sep=""))
+    write.csv(paste("Sept_2016/Data/",sp_id[i],"_length.csv",sep=""))
 }
 
 
@@ -70,16 +70,16 @@ Files <- list.files(Directory)
 
 for (i in 1:length(sp_id)){
 
-LengthData <-read.csv(paste("Data/",sp_id[i],"_length.csv",sep=""))
+LengthData <-read.csv(paste("Sept_2016/Data/",sp_id[i],"_length.csv",sep=""))
 
-Fish<-read.csv("Data/life.csv")%>%
+Fish<-read.csv("Sept_2016/Data/life.csv")%>%
   filter(species==sp_id[i])
 
 #source(paste(sp_id[i],"_ControlFile.R",sep=""))
 Fish$Mat50<-Fish$m95
 Fish$Linf<-Fish$Linf
 
-FigureFolder<- paste("plots/")
+FigureFolder<- paste("Sept_2016/plots/")
 name="Data Type"
 
 Theme<- theme(plot.background=element_rect(color='white'),
