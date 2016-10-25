@@ -424,11 +424,12 @@ colvec=c(1,"darkred","gold",3,"turquoise3")
                   
                   ############################
                   #Scenaro SIMULATION
-                  
+           
                   setupA=rep(1,P*TRfraction)      #status quo, no NTZ
-                  setupB=MAstructure              #existing NTZ structure
-                  setupC=c(rep(1,(numMA-0.5*numMA)/2),rep(0,0.5*numMA),rep(1,(numMA-0.5*numMA)/2))   #20% NTZ 
+                 # setupB=MAstructure              #existing NTZ structure
+                  setupC=c(rep(1,(numMA-0.3*numMA)/2),rep(0,0.3*numMA),rep(1,(numMA-0.3*numMA)/2))   #20% NTZ 
                   setupD=rep(0,20) #30% of total area is NTZ
+                 # setupD=c(rep(1,(numMA-0.5*numMA)/2),rep(0,0.5*numMA),rep(1,(numMA-0.5*numMA)/2))
                   scenarios=6
                   #currentF=0.28, 
                   current_u<-0.216
@@ -436,7 +437,7 @@ colvec=c(1,"darkred","gold",3,"turquoise3")
                   #scens[1,]=c(rep(current_u,(P-P*TRfraction)/2),current_u*setupA,rep(current_u,(P-P*TRfraction)/2))#open access at current harvesst rate
                   #scens[1,]=c(rep(OArate1,(P-P*TRfraction)/2),OArate1*setupA,rep(OArate1,(P-P*TRfraction)/2)) #Assume a Catch Limit that is set to maintain current biomass level
                   scens[1,]=c(rep(current_u,(P-P*TRfraction)/2),current_u*setupA,rep(current_u,(P-P*TRfraction)/2)) # Assume current fishing pressure continues
-                  scens[2,]=c(rep(u1_opt,(P-P*TRfraction)/2),u1_opt*setupA,rep(u1_opt,(P-P*TRfraction)/2)) #  Catch limit # Reduce harvest by 20%
+                  scens[2,]=c(rep(0.17,(P-P*TRfraction)/2),0.17*setupA,rep(0.17,(P-P*TRfraction)/2)) #  Catch limit # Reduce harvest by 20%
                   scens[3,]=c(rep(current_u,(P-P*TRfraction)/2),current_u*setupC,rep(current_u,(P-P*TRfraction)/2)) # 16.6% of total are no take
                   scens[4,]=c(rep(current_u,(P-P*TRfraction)/2),current_u*setupD,rep(current_u,(P-P*TRfraction)/2)) # 33% of total area take
                   scens[5,]=c(rep(current_u,(P-P*TRfraction)/2),current_u*setupA,rep(current_u,(P-P*TRfraction)/2)) #minimum size only
@@ -514,10 +515,10 @@ colvec=c(1,"darkred","gold",3,"turquoise3")
 #                    matplot(t(YieldBiomass[,tstart:years]),ylab="Global yield",yaxt="n",xaxt="n",ylim=c(0,max(YieldBiomass[,tstart:years])),type="l",col=colvec,lty=1,lwd=2,)
 #                      axis(1, at=seq(1,(years-tstart+1),5),labels=seq((tstart-yearsOA),yearsTR,5),las=0)
 #                      axis(2, at=c(0,max(YieldBiomass[,tstart:years])),labels=c("0","MaxGlobal"),las=0)
-                    matplot(t(PopBiomass[,tstart:years]/(B0_area*numMA)),main=levels(species)[which(levels(species)==species[sp])],ylab="Biomass/B0",xaxt="n",ylim=c(0,1),type="l",col=colvec,lty=1,lwd=2)
-                      axis(1, at=seq(1,(years-tstart+1),5),labels=seq((tstart-yearsOA),yearsTR,5),las=0)
-                    matplot(t(YieldBiomass[,tstart:years]/max(YieldBiomass[,tstart:years])),ylab="Yield/ max Yield",xaxt="n",ylim=c(0,1),type="l",col=colvec,lty=1,lwd=2)
-                      axis(1, at=seq(1,(years-tstart+1),5),labels=seq((tstart-yearsOA),yearsTR,5),las=0)
+                    matplot(t(PopBiomass[,100:years]/(B0_area*numMA)),main=levels(species)[which(levels(species)==species[sp])],xlab="Years",ylab="Relative Population Biomass",xaxt="n",ylim=c(0,1),type="l",col=colvec,lty=1,lwd=2)
+                      axis(1, at=seq(0,30,5),labels=seq(0,yearsTR,5),las=0)
+                    matplot(t(YieldBiomass[,100:years]/max(YieldBiomass[,tstart:years])),ylab="Relative Fisheries Yield",xlab="Years",xaxt="n",ylim=c(0,1),type="l",col=colvec,lty=1,lwd=2)
+                      axis(1, at=seq(0,30,5),labels=seq(0,yearsTR,5),las=0)
                       #axis(2, at=c(0,max(YieldBiomass[,tstart:years])),labels=c("0","Max"),las=0)
                     #plot(1,1,main=c(OArate1,OArate2,u1_opt))
                   title(paste(country[loc],", ",site[loc],"\n h1 = ",signif(OArate1,4),", h2 = ",signif(current_u,4),", h3 = ",signif(current_u,4),", h4 = ",signif(current_u,4),", h5 = ",signif(OArate1,4),",h6 = ",signif(current_u,4),", h7 = ",signif(current_u,4)),outer=T)
@@ -556,7 +557,7 @@ colvec=c(1,"darkred","gold",3,"turquoise3")
 par(mfrow=c(1,1))
 #  windows()
   plot(1, type="n", axes=F, xlab="", ylab="")
-  legend("topleft",legend=c("Scenario 1: BAU","Scenario 2: Catch Limit","Scenario3: 20% MR","Scenario 4: 30% MR ","Scenario 5: Size Limit","Scenario 6: Size limit+ 20% MR"),lty=1,col=colvec,cex=1.3,bty="n",lwd=3)  
+  legend("topleft",legend=c("Scenario 1: No management intervention","Scenario 2: Catch Limit","Scenario3: 20% MR","Scenario 4: 30% MR ","Scenario 5: Size Limit","Scenario 6: Size limit+ 20% MR"),lty=1,col=colvec,cex=1.3,bty="n",lwd=3)  
   
 #dev.off()
 

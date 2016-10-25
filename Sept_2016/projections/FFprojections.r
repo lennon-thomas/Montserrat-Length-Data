@@ -432,7 +432,7 @@ colvec=c(1,"darkred","gold",3,"turquoise3")
                   setupC=c(rep(1,(numMA-0.2*numMA)/2),rep(0,0.2*numMA),rep(1,(numMA-0.2*numMA)/2))                          #20%NTZ
                   scenarios=5
                   scens=matrix(NA,nrow=scenarios,ncol=P)
-                  scens[1,]=c(rep(OArate1,(P-P*TRfraction)/2),OArate1*setupA,rep(OArate1,(P-P*TRfraction)/2))
+                  scens[1,]=c(rep(OArate1,(P-P*TRfraction)/2),OArate1*setupA,rep(OArate1,(P-P*TRfraction)/2)) 
                   scens[2,]=c(rep(OArate1,(P-P*TRfraction)/2),OArate1*setupB,rep(OArate1,(P-P*TRfraction)/2))
                   scens[3,]=c(rep(OArate1,(P-P*TRfraction)/2),u1_opt*setupB,rep(OArate1,(P-P*TRfraction)/2))
                   scens[4,]=c(rep(OArate1,(P-P*TRfraction)/2),u1_opt*setupC,rep(OArate1,(P-P*TRfraction)/2))
